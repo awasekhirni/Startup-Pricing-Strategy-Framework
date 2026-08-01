@@ -1,487 +1,770 @@
 {
   "metadata": {
-    "title": "Startup Pricing Strategy Framework.",
+    "title": "Startup Pricing Strategy Framework",
     "subtitle": "Price influences perception as much as value.",
     "copyright": "Copyright 2025 Beta ORI Inc. Canada. All Rights Reserved",
     "Author": "Awase Khirni Syed.",
     "total_strategies": 20,
-    "version": "3.0",
-    "last_updated": "2025",
-    "framework": "Comprehensive Pricing Strategy Intelligence System"
+    "version": "2.0",
+    "last_updated": "2026",
+    "framework": "Comprehensive Pricing Strategy Intelligence System (reference: Oxford Handbook Aligned)"
   },
   "pricing_strategies": [
     {
       "id": 1,
-      "name": "Charm Pricing",
-      "description": "Price ends in .99 to appear cheaper",
-      "category": "Psychological Pricing",
-      "business_models": ["B2C Retail", "E-commerce", "FMCG", "Grocery Stores", "Fashion Retail"],
-      "industries": ["Retail", "Consumer Goods", "Food & Beverage", "Apparel"],
-      "target_segment": "Price-sensitive consumers, Mass market",
-      "implementation_difficulty": "Low",
+      "name": "Customized Pricing (Bid-Response)",
+      "description": "Setting individualized B2B prices based on bid-response models and incremental profit.",
+      "category": "B2B Contracting",
+      "business_models": ["B2B", "Manufacturing", "Services"],
+      "industries": ["Industrial Equipment", "Telecom", "Software"],
+      "target_segment": "Corporate buyers, Procurement departments",
+      "implementation_difficulty": "High",
       "effectiveness_rating": 8,
-      "pros": [
-        "Creates perception of significantly lower price",
-        "Easy to implement",
-        "Proven psychological impact",
-        "No cost to business"
-      ],
-      "cons": [
-        "May appear cheap or low-quality",
-        "Less effective for premium products",
-        "Can complicate accounting"
-      ],
-      "best_for": "High-volume, low-margin products targeting budget-conscious shoppers",
-      "avoid_when": "Selling luxury or premium products where quality perception is critical",
-      "real_world_examples": ["Walmart", "Target", "Amazon (consumer goods)", "McDonald's"],
-      "revenue_impact": "Medium-High",
-      "customer_psychology": "Left-digit effect: $9.99 feels closer to $9 than $10",
-      
-      "risk_assessment": {
-        "overall_risk_level": "Low",
-        "risks": [
-          "Brand perception damage if overused",
-          "Minimal impact on premium segments",
-          "Potential accounting complexity"
-        ],
-        "mitigation_strategies": [
-          "Use selectively on appropriate products",
-          "A/B test to measure actual impact",
-          "Ensure accounting systems can handle fractional pricing"
-        ]
-      },
-      "legal_compliance": {
-        "considerations": ["Generally legal everywhere", "Must display full price clearly", "No deceptive practices"],
-        "restrictions": "None significant",
-        "disclosure_requirements": "Standard price display regulations"
-      },
-      "implementation": {
-        "timeline": "1-7 days",
-        "resource_requirements": {
-          "budget": "$0-100",
-          "team_size": "1-2 people",
-          "technology": "POS/E-commerce platform update",
-          "external_vendors": "None"
-        },
-        "technology_stack": ["POS System", "E-commerce Platform", "Pricing Management Software (optional)"],
-        "training_needs": "Minimal - staff should understand pricing display",
-        "integration_requirements": ["Inventory Management", "Accounting System", "Payment Processing"]
-      },
-      "market_conditions": {
-        "best_in": ["Price-sensitive markets", "High competition", "Economic downturn", "Commoditized products"],
-        "worst_in": ["Luxury markets", "Low competition", "Economic boom", "Innovation-driven purchases"],
-        "seasonality": "Year-round effective, slightly stronger during sale seasons"
-      },
-      "impact_analysis": {
-        "cannibalization_risk": "Low",
-        "brand_perception_impact": "Neutral to Slightly Negative (may appear cheaper)",
-        "customer_lifetime_value_impact": "Neutral",
-        "scalability_score": 10,
-        "competitive_response_probability": "High (easy to copy)",
-        "customer_support_impact": "None"
-      },
-      "success_kpis": [
-        "Conversion rate lift: 2-5%",
-        "Average order value: Neutral to +1%",
-        "Units sold increase: 3-7%",
-        "Gross margin: Neutral"
-      ],
-      "industry_benchmarks": {
-        "typical_conversion_lift": "2-5%",
-        "adoption_rate": "85% of retailers use this",
-        "average_effectiveness": "3.2% sales increase"
-      },
-      "common_pitfalls": [
-        "Using on premium products damages brand",
-        "Overuse makes all prices look manipulative",
-        "Not testing actual impact on your audience",
-        "Ignoring rounding for easier transactions"
-      ],
-      "exit_strategy": {
-        "how_to_unwind": "Gradually round prices up over 3-6 months",
-        "customer_communication": "No communication needed",
-        "transition_period": "1-3 months",
-        "risks": "Minimal customer notice or backlash"
-      },
-      "cross_sell_opportunities": [
-        "Bundle with complementary products",
-        "Upsell to premium version after purchase",
-        "Cross-sell related accessories"
-      ],
-      "price_elasticity_estimate": {
-        "elasticity_coefficient": "-0.8 to -1.2",
-        "demand_sensitivity": "Moderate",
-        "optimal_price_points": ["$X.99", "$X.97", "$X.95"]
-      },
-      "customer_segmentation_matrix": {
-        "primary_segments": [
-          {
-            "segment": "Bargain Hunters",
-            "effectiveness": "Very High",
-            "percentage_of_market": "30-40%"
-          },
-          {
-            "segment": "Impulse Buyers",
-            "effectiveness": "High",
-            "percentage_of_market": "20-25%"
-          },
-          {
-            "segment": "Quality Seekers",
-            "effectiveness": "Low",
-            "percentage_of_market": "15-20%"
-          }
-        ]
-      },
-      "ab_testing_guidelines": {
-        "test_duration": "2-4 weeks",
-        "sample_size": "Minimum 1000 visitors per variant",
-        "variants_to_test": ["$9.99 vs $10.00", "$19.99 vs $20.00 vs $19.95"],
-        "metrics_to_track": ["Conversion rate", "AOV", "Units per transaction"]
-      }
+      "pros": ["Maximizes win probability", "Captures incremental profit", "Tailored to customer"],
+      "cons": ["Requires complex analytics", "High data dependency", "Sales resistance"],
+      "best_for": "High-value, low-volume transactions with heterogeneous buyers",
+      "avoid_when": "Commodity markets with transparent, uniform pricing",
+      "real_world_examples": ["HP", "Dell", "Parker Hannifin"],
+      "revenue_impact": "High",
+      "customer_psychology": "Perceived as negotiated partnership rather than fixed markup",
+      "risk_assessment": {"overall_risk_level": "Medium", "risks": ["Data inaccuracies", "Sales circumvention"], "mitigation_strategies": ["Exception tracking codes", "Steering committee oversight"]},
+      "legal_compliance": {"considerations": ["Robinson-Patman Act", "Antitrust laws"], "restrictions": "Cannot discriminate among competing retailers without cost-justification", "disclosure_requirements": "Standard B2B contract transparency"},
+      "implementation": {"timeline": "3-6 months", "resource_requirements": {"budget": "$50k-200k", "team_size": "Cross-functional (IT, Finance, Sales)", "technology": "Pricing optimization software, ERP integration"}},
+      "market_conditions": {"best_in": ["Volatile raw material costs", "High product differentiation"], "worst_in": ["Commoditized markets", "Highly transparent e-commerce"], "seasonality": "Year-round"},
+      "impact_analysis": {"cannibalization_risk": "Low", "brand_perception_impact": "Neutral", "customer_lifetime_value_impact": "Positive", "scalability_score": 6, "competitive_response_probability": "Low", "customer_support_impact": "Low"},
+      "success_kpis": ["Win rate", "Average transaction margin", "Quote-to-order cycle time"],
+      "industry_benchmarks": {"typical_margin_improvement": "2-5%", "adoption_rate": "Common in heavy manufacturing"},
+      "common_pitfalls": ["Ignoring salesforce incentives", "Poor data quality", "Overly complex models"],
+      "exit_strategy": {"how_to_unwind": "Revert to standard list-price discounting", "customer_communication": "Internal process change", "transition_period": "1-2 months", "risks": "Sales disruption"},
+      "cross_sell_opportunities": ["Bundling ancillary services", "Long-term service agreements"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "Varies by customer segment", "demand_sensitivity": "Modeled via bid-response curves"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Price-sensitive volume buyers", "effectiveness": "High"}, {"segment": "Value-added strategic partners", "effectiveness": "Medium"}]},
+      "ab_testing_guidelines": {"test_duration": "Ongoing A/B testing of discount thresholds", "sample_size": "Statistical significance per territory/segment", "variants_to_test": ["Discount authority levels", "Guideline floors"], "metrics_to_track": ["Defect rate", "Margin realization"]}
     },
     {
       "id": 2,
-      "name": "Anchor Pricing",
-      "description": "Show an expensive option first to make others seem affordable",
-      "category": "Psychological Pricing",
-      "business_models": ["SaaS", "E-commerce", "Retail", "Consulting", "Real Estate"],
-      "industries": ["Software", "Luxury Goods", "Automotive", "Hospitality", "Education"],
-      "target_segment": "All segments, especially indecisive buyers",
+      "name": "Nonlinear Pricing (Two-Part Tariffs)",
+      "description": "Charging a fixed access fee plus a per-unit usage fee to capture consumer surplus.",
+      "category": "Nonlinear Pricing",
+      "business_models": ["SaaS", "Telecom", "Utilities", "Club Memberships"],
+      "industries": ["Software", "Telecommunications", "Energy", "Fitness"],
+      "target_segment": "Heterogeneous usage-rate customers",
+      "implementation_difficulty": "Medium",
+      "effectiveness_rating": 9,
+      "pros": ["Extracts surplus from high-usage users", "Guarantees base revenue", "Encourages adoption"],
+      "cons": ["Complex to design optimal fees", "May deter low-usage customers", "Requires usage tracking"],
+      "best_for": "Services with high fixed costs and low marginal costs",
+      "avoid_when": "Usage is impossible to meter or track",
+      "real_world_examples": ["AT&T", "Costco", "Amazon Prime", "Electric Utilities"],
+      "revenue_impact": "Very High",
+      "customer_psychology": "Fixed fee perceived as 'membership', usage fee as 'fair pay for value'",
+      "risk_assessment": {"overall_risk_level": "Medium", "risks": ["Customer churn due to fixed fees", "Regulatory scrutiny on utilities"], "mitigation_strategies": ["Offer tiered access fees", "Transparent usage dashboards"]},
+      "legal_compliance": {"considerations": ["Utility regulations", "Consumer protection laws"], "restrictions": "Must not engage in anti-competitive bundling", "disclosure_requirements": "Clear breakdown of access vs. usage costs"},
+      "implementation": {"timeline": "2-4 months", "resource_requirements": {"budget": "$20k-100k", "team_size": "Product, Billing, Analytics", "technology": "Metering systems, Billing engines"}},
+      "market_conditions": {"best_in": ["Digital goods", "Recurring services"], "worst_in": ["One-off physical goods"], "seasonality": "Year-round"},
+      "impact_analysis": {"cannibalization_risk": "Medium", "brand_perception_impact": "Positive (perceived as flexible)", "customer_lifetime_value_impact": "High", "scalability_score": 8, "competitive_response_probability": "Medium", "customer_support_impact": "Medium (billing inquiries)"},
+      "success_kpis": ["Access fee conversion rate", "Average revenue per user (ARPU)", "Usage volume"],
+      "industry_benchmarks": {"typical_revenue_lift": "10-20%", "adoption_rate": "Standard in SaaS/Telecom"},
+      "common_pitfalls": ["Setting access fee too high", "Failing to meter usage accurately"],
+      "exit_strategy": {"how_to_unwind": "Shift to flat-rate or pure pay-per-use", "customer_communication": "Grandfather existing access fees", "transition_period": "3-6 months", "risks": "Revenue drop"},
+      "cross_sell_opportunities": ["Premium usage tiers", "Ancillary add-ons"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "-0.5 to -1.5", "demand_sensitivity": "Moderate"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Heavy users", "effectiveness": "Very High"}, {"segment": "Light users", "effectiveness": "Low"}]},
+      "ab_testing_guidelines": {"test_duration": "3-6 months", "sample_size": "Minimum 5000 users per variant", "variants_to_test": ["Access fee levels", "Per-unit rates"], "metrics_to_track": ["Adoption rate", "Total revenue", "Churn"]}
+    },
+    {
+      "id": 3,
+      "name": "Price Bundling",
+      "description": "Selling multiple products/services together at a discount to extract surplus and reduce costs.",
+      "category": "Nonlinear Pricing",
+      "business_models": ["Software", "Media", "Travel", "Retail"],
+      "industries": ["SaaS", "Publishing", "Hospitality", "Consumer Goods"],
+      "target_segment": "Customers with negatively correlated valuations for components",
+      "implementation_difficulty": "Medium",
+      "effectiveness_rating": 9,
+      "pros": ["Reduces price sensitivity", "Lowers transaction costs", "Moves slow-selling inventory"],
+      "cons": ["Can cannibalize high-margin individual sales", "Complex pricing logic", "Antitrust risks"],
+      "best_for": "Information goods, software, travel packages",
+      "avoid_when": "Customers strongly prefer à la carte or components have highly correlated valuations",
+      "real_world_examples": ["Microsoft Office", "Cable TV", "McDonald's Happy Meal", "Amazon Prime"],
+      "revenue_impact": "High",
+      "customer_psychology": "Transaction utility: Perceived savings lower price sensitivity; mental accounting",
+      "risk_assessment": {"overall_risk_level": "Medium", "risks": ["Antitrust scrutiny (tying)", "Brand dilution"], "mitigation_strategies": ["Offer mixed bundling", "Ensure legal compliance"]},
+      "legal_compliance": {"considerations": ["Robinson-Patman Act", "Sherman Act"], "restrictions": "Cannot force purchase of secondary product as condition for monopolized primary", "disclosure_requirements": "Clear breakdown of bundle contents"},
+      "implementation": {"timeline": "2-6 weeks", "resource_requirements": {"budget": "$10k-50k", "team_size": "Product, Marketing, Legal", "technology": "E-commerce bundling logic, ERP"}},
+      "market_conditions": {"best_in": ["Diverse customer needs", "High fixed/low marginal cost"], "worst_in": ["Highly commoditized markets"], "seasonality": "Year-round / Holiday peaks"},
+      "impact_analysis": {"cannibalization_risk": "Medium-High", "brand_perception_impact": "Positive", "customer_lifetime_value_impact": "Positive", "scalability_score": 9, "competitive_response_probability": "High", "customer_support_impact": "Low"},
+      "success_kpis": ["Bundle attach rate", "Average Order Value (AOV)", "Gross margin %"],
+      "industry_benchmarks": {"typical_aov_lift": "15-40%", "adoption_rate": "Standard in SaaS/Telecom"},
+      "common_pitfalls": ["Bundling incompatible products", "Failing to offer à la carte escape hatch"],
+      "exit_strategy": {"how_to_unwind": "Revert to à la carte pricing", "customer_communication": "Sunset bundle options", "transition_period": "3 months", "risks": "Customer backlash"},
+      "cross_sell_opportunities": ["Introduce new products via bundles", "Upsell to premium bundle"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "-0.3 to -0.7", "demand_sensitivity": "Low"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Convenience seekers", "effectiveness": "Very High"}, {"segment": "Bargain hunters", "effectiveness": "High"}]},
+      "ab_testing_guidelines": {"test_duration": "4-8 weeks", "sample_size": "Minimum 3000 visitors per variant", "variants_to_test": ["Bundle composition", "Discount depth"], "metrics_to_track": ["AOV", "Conversion rate", "Margin"]}
+    },
+    {
+      "id": 4,
+      "name": "Unbundling & Versioning",
+      "description": "Separating ancillary services or intentionally degrading quality to segment markets.",
+      "category": "Product Design Pricing",
+      "business_models": ["Airlines", "SaaS", "Automotive", "Retail"],
+      "industries": ["Travel", "Software", "Manufacturing", "Media"],
+      "target_segment": "Price-sensitive vs. premium segments",
+      "implementation_difficulty": "Medium",
+      "effectiveness_rating": 8,
+      "pros": ["Captures diverse surplus", "Increases base revenue", "Allows product damaging"],
+      "cons": ["Customer frustration (junk fees)", "Brand damage", "Complex sales execution"],
+      "best_for": "Digital goods, services with high fixed costs",
+      "avoid_when": "Customers demand all-inclusive experience",
+      "real_world_examples": ["Southwest (baggage)", "Adobe", "BMW (packages)", "Intel"],
+      "revenue_impact": "High",
+      "customer_psychology": "Base price anchoring; loss aversion to unbundled fees",
+      "risk_assessment": {"overall_risk_level": "Medium-High", "risks": ["Customer backlash", "Competitor all-inclusive offers"], "mitigation_strategies": ["Transparent communication", "Keep core product functional"]},
+      "legal_compliance": {"considerations": ["CFPB (junk fees)", "FTC truth-in-advertising"], "restrictions": "No drip pricing or hidden mandatory fees", "disclosure_requirements": "Total price including mandatory fees must be clear"},
+      "implementation": {"timeline": "1-3 months", "resource_requirements": {"budget": "$10k-50k", "team_size": "Product, UX, Pricing", "technology": "CPQ systems, billing engines"}},
+      "market_conditions": {"best_in": ["Diverse customer needs", "Digital ecosystems"], "worst_in": ["Regulated utilities", "Commoditized B2B"], "seasonality": "Year-round"},
+      "impact_analysis": {"cannibalization_risk": "Medium", "brand_perception_impact": "Negative if aggressive", "customer_lifetime_value_impact": "Positive", "scalability_score": 10, "competitive_response_probability": "Medium", "customer_support_impact": "High"},
+      "success_kpis": ["Attach rate of premium features", "Base product conversion", "Ancillary revenue %"],
+      "industry_benchmarks": {"typical_ancillary_share": "10-30% (Airlines)", "adoption_rate": "Standard in SaaS"},
+      "common_pitfalls": ["Product damaging that breaks core UX", "Hidden fees"],
+      "exit_strategy": {"how_to_unwind": "Re-bundle core features", "customer_communication": "Simplify pricing tiers", "transition_period": "3-6 months", "risks": "Margin compression"},
+      "cross_sell_opportunities": ["Upsell to next version tier", "Cross-sell unbundled modules"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "-0.5 to -1.5", "demand_sensitivity": "Moderate"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Power users", "effectiveness": "High"}, {"segment": "Budget conscious", "effectiveness": "High"}]},
+      "ab_testing_guidelines": {"test_duration": "3-6 months", "sample_size": "Cohort-based segmentation", "variants_to_test": ["Feature inclusion", "Fee structures"], "metrics_to_track": ["NPS", "Churn", "Attach rate"]}
+    },
+    {
+      "id": 5,
+      "name": "Markdown Management",
+      "description": "Clearing seasonal or perishable inventory via dynamic, time-based price reductions.",
+      "category": "Lifecycle Pricing",
+      "business_models": ["Fashion Retail", "Consumer Electronics", "Grocery"],
+      "industries": ["Apparel", "Tech Hardware", "Perishables"],
+      "target_segment": "Late adopters, clearance shoppers",
+      "implementation_difficulty": "High",
+      "effectiveness_rating": 8,
+      "pros": ["Frees working capital", "Prevents total loss", "Drives foot traffic"],
+      "cons": ["Margin erosion", "Trains strategic waiting", "Brand dilution"],
+      "best_for": "Short lifecycle, high obsolescence risk",
+      "avoid_when": "Selling timeless classics or luxury exclusivity",
+      "real_world_examples": ["Zara", "Best Buy", "Filene's Basement", "TJ Maxx"],
+      "revenue_impact": "Medium (Protects downside)",
+      "customer_psychology": "Reference price formation; strategic waiting for discounts",
+      "risk_assessment": {"overall_risk_level": "Medium", "risks": ["Cannibalization of full-price", "Conditioning strategic waiting"], "mitigation_strategies": ["Opaque selling", "Limit discount depth/frequency"]},
+      "legal_compliance": {"considerations": ["FTC 'former' prices", "Loss leader laws"], "restrictions": "Cannot advertise 'was' price if never sold at that price", "disclosure_requirements": "Clear 'final sale' disclosures"},
+      "implementation": {"timeline": "3-6 weeks", "resource_requirements": {"budget": "$5k-20k", "team_size": "Merchandisers, Analysts", "technology": "Markdown optimization software, ERP"}},
+      "market_conditions": {"best_in": ["Highly seasonal", "Fast-fashion/tech"], "worst_in": ["Commodities", "Luxury"], "seasonality": "End-of-season peaks"},
+      "impact_analysis": {"cannibalization_risk": "High", "brand_perception_impact": "Negative if overused", "customer_lifetime_value_impact": "Neutral", "scalability_score": 9, "competitive_response_probability": "High", "customer_support_impact": "Low"},
+      "success_kpis": ["Sell-through rate", "GMROI", "Days Sales of Inventory"],
+      "industry_benchmarks": {"typical_margin_erosion": "10-30%", "adoption_rate": "Universal in fashion/tech"},
+      "common_pitfalls": ["Taking markdowns too early/late", "Predictable calendar markdowns"],
+      "exit_strategy": {"how_to_unwind": "Shift to EDLP or high-low promo", "customer_communication": "Reposition brand value", "transition_period": "6-12 months", "risks": "Inventory write-offs"},
+      "cross_sell_opportunities": ["Clearance as loss leaders for full-margin accessories"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "-2.0 to -5.0", "demand_sensitivity": "Very High"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Bargain hunters", "effectiveness": "Very High"}, {"segment": "Early adopters", "effectiveness": "Negative"}]},
+      "ab_testing_guidelines": {"test_duration": "Full lifecycle", "sample_size": "Store/SKU cohorts", "variants_to_test": ["Markdown timing", "Discount depth"], "metrics_to_track": ["Sell-through", "Margin", "Traffic"]}
+    },
+    {
+      "id": 6,
+      "name": "Reference Price Modeling",
+      "description": "Pricing based on consumer memory of past prices, exploiting gain/loss asymmetry.",
+      "category": "Behavioral Pricing",
+      "business_models": ["CPG", "Retail", "E-commerce"],
+      "industries": ["Consumer Goods", "Grocery", "Apparel"],
+      "target_segment": "Frequent purchasers, brand loyalists",
+      "implementation_difficulty": "High",
+      "effectiveness_rating": 9,
+      "pros": ["Maximizes promo ROI", "Manages brand equity", "Predicts demand shifts"],
+      "cons": ["Requires rich historical data", "Complex econometric models", "Risk of reference price decay"],
+      "best_for": "Frequently purchased goods with regular promotions",
+      "avoid_when": "New product launches or highly commoditized goods",
+      "real_world_examples": ["Coca-Cola", "P&G", "Unilever", "Major Retailers"],
+      "revenue_impact": "High",
+      "customer_psychology": "Prospect theory: Loss aversion (p > r) vs. Gain seeking (p < r)",
+      "risk_assessment": {"overall_risk_level": "Medium", "risks": ["Reference price decay", "Model misspecification"], "mitigation_strategies": ["Control promo frequency", "Use exponential smoothing models"]},
+      "legal_compliance": {"considerations": ["FTC pricing guidelines"], "restrictions": "Must not use fake reference prices", "disclosure_requirements": "Accurate MSRP or regular price display"},
+      "implementation": {"timeline": "3-6 months", "resource_requirements": {"budget": "$50k-150k", "team_size": "Data Scientists, Marketing", "technology": "Scanner panel data, Econometric software"}},
+      "market_conditions": {"best_in": ["High purchase frequency", "Promo-heavy categories"], "worst_in": ["Durable goods", "One-off purchases"], "seasonality": "Year-round"},
+      "impact_analysis": {"cannibalization_risk": "Medium", "brand_perception_impact": "Positive if managed well", "customer_lifetime_value_impact": "Positive", "scalability_score": 7, "competitive_response_probability": "High", "customer_support_impact": "Low"},
+      "success_kpis": ["Promo ROI", "Base volume vs. Lift volume", "Reference price index"],
+      "industry_benchmarks": {"typical_lift": "15-25% during promos", "adoption_rate": "Standard in CPG"},
+      "common_pitfalls": ["Over-promoting (eroding reference price)", "Ignoring competitor reference prices"],
+      "exit_strategy": {"how_to_unwind": "Stabilize pricing, reduce promo depth", "customer_communication": "Everyday Low Price (EDLP) shift", "transition_period": "6-12 months", "risks": "Short-term volume drop"},
+      "cross_sell_opportunities": ["Cross-category promotions", "Loyalty program integration"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "Asymmetric (Loss > Gain)", "demand_sensitivity": "High"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Deal-prone shoppers", "effectiveness": "Very High"}, {"segment": "Brand loyalists", "effectiveness": "Medium"}]},
+      "ab_testing_guidelines": {"test_duration": "6-12 months", "sample_size": "Market/Region level", "variants_to_test": ["Promo depth", "Promo frequency"], "metrics_to_track": ["Base volume", "Incremental volume", "Margin"]}
+    },
+    {
+      "id": 7,
+      "name": "Trade & Sales Promotions",
+      "description": "Incentives (off-invoice, scan-back, accrual) to stimulate channel and retail sales.",
+      "category": "Channel Pricing",
+      "business_models": ["CPG", "Retail", "Manufacturing"],
+      "industries": ["Consumer Goods", "Grocery", "Apparel"],
+      "target_segment": "Retailers, Distributors, Wholesalers",
+      "implementation_difficulty": "Medium",
+      "effectiveness_rating": 8,
+      "pros": ["Drives channel inventory", "Secures shelf space", "Stimulates consumer trial"],
+      "cons": ["Forward buying/diverting", "High administrative cost", "Margin leakage"],
+      "best_for": "Launching new products, clearing excess inventory",
+      "avoid_when": "Highly commoditized markets with thin margins",
+      "real_world_examples": ["P&G", "Unilever", "Nestle", "Blockbuster (historical)"],
+      "revenue_impact": "High",
+      "customer_psychology": "Channel partners motivated by margin enhancement and volume bonuses",
+      "risk_assessment": {"overall_risk_level": "Medium", "risks": ["Forward buying", "Diverting", "Poor pass-through"], "mitigation_strategies": ["Scan-back deals", "Accrual funds", "Rentrak monitoring"]},
+      "legal_compliance": {"considerations": ["Robinson-Patman Act", "FTC guidelines"], "restrictions": "Must offer proportional allowances to competing retailers", "disclosure_requirements": "Clear contract terms"},
+      "implementation": {"timeline": "1-3 months", "resource_requirements": {"budget": "$100k+", "team_size": "Trade Marketing, Sales, Finance", "technology": "Trade Promotion Management (TPM) systems"}},
+      "market_conditions": {"best_in": ["Highly competitive retail", "New product launches"], "worst_in": ["Direct-to-consumer models"], "seasonality": "Holiday/Seasonal peaks"},
+      "impact_analysis": {"cannibalization_risk": "High (post-promo dip)", "brand_perception_impact": "Neutral", "customer_lifetime_value_impact": "Neutral", "scalability_score": 8, "competitive_response_probability": "Very High", "customer_support_impact": "Low"},
+      "success_kpis": ["Pass-through rate", "Incremental volume", "Promo ROI"],
+      "industry_benchmarks": {"typical_spend": "15-25% of revenue", "adoption_rate": "Universal in CPG"},
+      "common_pitfalls": ["Failing to track pass-through", "Over-reliance on off-invoice deals"],
+      "exit_strategy": {"how_to_unwind": "Shift to Everyday Low Price (EDLP)", "customer_communication": "Renegotiate annual contracts", "transition_period": "6-12 months", "risks": "Loss of shelf space"},
+      "cross_sell_opportunities": ["Joint marketing campaigns", "Co-branded displays"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "-1.5 to -3.0", "demand_sensitivity": "High"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Large retail chains", "effectiveness": "High"}, {"segment": "Independent retailers", "effectiveness": "Medium"}]},
+      "ab_testing_guidelines": {"test_duration": "3-6 months", "sample_size": "Store/Region clusters", "variants_to_test": ["Off-invoice vs. Scan-back", "Discount depth"], "metrics_to_track": ["Sell-through", "Forward buy volume", "Margin"]}
+    },
+    {
+      "id": 8,
+      "name": "Network Revenue Management",
+      "description": "Controlling capacity across multiple interconnected resources (e.g., airline hubs).",
+      "category": "Revenue Management",
+      "business_models": ["Airlines", "Hotels", "Railways", "Cruises"],
+      "industries": ["Travel", "Hospitality", "Logistics"],
+      "target_segment": "Origin-Destination (O&D) travelers, multi-night guests",
+      "implementation_difficulty": "Very High",
+      "effectiveness_rating": 10,
+      "pros": ["Maximizes network yield", "Optimizes interconnected capacity", "Segments complex demand"],
+      "cons": ["Requires massive data/IT", "High computational complexity", "Customer confusion"],
+      "best_for": "Hub-and-spoke networks, multi-leg itineraries",
+      "avoid_when": "Point-to-point single-resource models",
+      "real_world_examples": ["Delta", "United", "Marriott", "Hilton"],
+      "revenue_impact": "Very High",
+      "customer_psychology": "Opaque pricing; customers accept restrictions for lower fares",
+      "risk_assessment": {"overall_risk_level": "High", "risks": ["System failure", "Overbooking backlash", "Competitor price wars"], "mitigation_strategies": ["Bid-price controls", "Robust overbooking algorithms", "Customer compensation"]},
+      "legal_compliance": {"considerations": ["Consumer protection", "Anti-discrimination"], "restrictions": "Cannot use protected classes for rate fences", "disclosure_requirements": "Clear terms for non-refundable rates"},
+      "implementation": {"timeline": "6-18 months", "resource_requirements": {"budget": "$500k+", "team_size": "RM Analysts, Data Scientists, IT", "technology": "RM software (IDMS, Sabre), GDS integration"}},
+      "market_conditions": {"best_in": ["High fixed costs", "Perishable inventory", "Hub networks"], "worst_in": ["Commodity markets", "Infinite capacity"], "seasonality": "Peak travel seasons"},
+      "impact_analysis": {"cannibalization_risk": "Low (if rate fences strong)", "brand_perception_impact": "Neutral/Negative", "customer_lifetime_value_impact": "Positive", "scalability_score": 7, "competitive_response_probability": "High", "customer_support_impact": "High"},
+      "success_kpis": ["RASM", "Load Factor", "Network Yield"],
+      "industry_benchmarks": {"typical_revenue_lift": "5-15%", "adoption_rate": "100% of major airlines/hotels"},
+      "common_pitfalls": ["Weak rate fences", "Over-reliance on historical data"],
+      "exit_strategy": {"how_to_unwind": "Flatten pricing, offer universal guarantees", "customer_communication": "Simplify fare structures", "transition_period": "6-12 months", "risks": "Revenue drop"},
+      "cross_sell_opportunities": ["Ancillary fees", "Loyalty program integration"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "Segmented", "demand_sensitivity": "Highly variable"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Business/O&D", "effectiveness": "High Yield"}, {"segment": "Leisure/Local", "effectiveness": "High Volume"}]},
+      "ab_testing_guidelines": {"test_duration": "Ongoing", "sample_size": "Network-wide", "variants_to_test": ["Bid-price thresholds", "Booking limits"], "metrics_to_track": ["RASM", "Spill rate", "Load factor"]}
+    },
+    {
+      "id": 9,
+      "name": "Auction Pricing",
+      "description": "Eliciting buyer valuations via mechanisms like Vickrey, GSP, or Combinatorial auctions.",
+      "category": "Market Mechanism",
+      "business_models": ["Digital Advertising", "Spectrum Sales", "eCommerce", "Procurement"],
+      "industries": ["AdTech", "Telecom", "Financial Services", "Government"],
+      "target_segment": "Bidders with private, heterogeneous valuations",
+      "implementation_difficulty": "Very High",
+      "effectiveness_rating": 9,
+      "pros": ["Discovers true market price", "Allocates to highest value", "High transparency"],
+      "cons": ["Winner's curse", "Complex design", "Bidder collusion risks"],
+      "best_for": "Unique items, perishable ad inventory, spectrum licenses",
+      "avoid_when": "Standardized goods with established market prices",
+      "real_world_examples": ["Google (GSP)", "FCC Spectrum Auctions", "eBay", "Priceline"],
+      "revenue_impact": "Very High",
+      "customer_psychology": "Competitive arousal; strategic bid shading to avoid winner's curse",
+      "risk_assessment": {"overall_risk_level": "High", "risks": ["Bidder collusion", "Shill bidding", "Market failure"], "mitigation_strategies": ["Reserve prices", "Vickrey/Truthful mechanisms", "Regulatory oversight"]},
+      "legal_compliance": {"considerations": ["Antitrust", "FCC regulations", "Consumer protection"], "restrictions": "No shill bidding or bid rigging", "disclosure_requirements": "Clear auction rules and reserve prices"},
+      "implementation": {"timeline": "6-12 months", "resource_requirements": {"budget": "$100k-1M+", "team_size": "Economists, Game Theorists, Engineers", "technology": "Auction platforms, Real-time bidding engines"}},
+      "market_conditions": {"best_in": ["Asymmetric information", "Unique/perishable goods"], "worst_in": ["Commodities", "Thin markets"], "seasonality": "Year-round"},
+      "impact_analysis": {"cannibalization_risk": "Low", "brand_perception_impact": "Neutral", "customer_lifetime_value_impact": "Neutral", "scalability_score": 8, "competitive_response_probability": "Low", "customer_support_impact": "Medium"},
+      "success_kpis": ["Revenue per impression/unit", "Fill rate", "Bidder participation"],
+      "industry_benchmarks": {"typical_efficiency": "90-95%", "adoption_rate": "Standard in AdTech/Gov"},
+      "common_pitfalls": ["Poor reserve price setting", "Ignoring bidder collusion"],
+      "exit_strategy": {"how_to_unwind": "Shift to fixed-price or negotiated sales", "customer_communication": "Phase out auction format", "transition_period": "3-6 months", "risks": "Revenue volatility"},
+      "cross_sell_opportunities": ["Premium placement", "Guaranteed delivery contracts"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "N/A (Market clearing)", "demand_sensitivity": "Endogenous"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Aggressive bidders", "effectiveness": "High"}, {"segment": "Risk-averse bidders", "effectiveness": "Low"}]},
+      "ab_testing_guidelines": {"test_duration": "Continuous", "sample_size": "Market-wide", "variants_to_test": ["Auction format (1st vs 2nd price)", "Reserve levels"], "metrics_to_track": ["Revenue", "Efficiency", "Bidder retention"]}
+    },
+    {
+      "id": 10,
+      "name": "Services Engineering (Real Options)",
+      "description": "Offering callable, flexible, or upgrade options to manage capacity and segment risk.",
+      "category": "Product Design Pricing",
+      "business_models": ["Airlines", "Hotels", "Cloud Computing", "Event Ticketing"],
+      "industries": ["Travel", "Hospitality", "Tech", "Entertainment"],
+      "target_segment": "Flexible vs. inflexible customers",
+      "implementation_difficulty": "High",
+      "effectiveness_rating": 9,
+      "pros": ["Mitigates supply/demand risk", "Induces new demand", "Prevents secondary markets"],
+      "cons": ["Complex fulfillment", "Customer expectation management", "IT legacy issues"],
+      "best_for": "Perishable capacity with heterogeneous flexibility",
+      "avoid_when": "Standardized, non-perishable goods",
+      "real_world_examples": ["Airline callable tickets", "Hotel upgrades", "Cloud preempting"],
+      "revenue_impact": "High",
+      "customer_psychology": "Value of flexibility; risk premium for guaranteed fulfillment",
+      "risk_assessment": {"overall_risk_level": "Medium", "risks": ["Fulfillment errors", "Customer ill-will if recalled"], "mitigation_strategies": ["Clear compensation policies", "Robust IT systems"]},
+      "legal_compliance": {"considerations": ["Consumer protection", "Contract law"], "restrictions": "Must honor compensation terms for recalled services", "disclosure_requirements": "Clear terms on option exercise/recall"},
+      "implementation": {"timeline": "3-9 months", "resource_requirements": {"budget": "$50k-200k", "team_size": "Product, Legal, IT", "technology": "Options management systems, CRM"}},
+      "market_conditions": {"best_in": ["High capacity volatility", "Secondary market risks"], "worst_in": ["Stable demand", "Non-perishable goods"], "seasonality": "Peak seasons"},
+      "impact_analysis": {"cannibalization_risk": "Medium", "brand_perception_impact": "Positive (flexibility)", "customer_lifetime_value_impact": "Positive", "scalability_score": 7, "competitive_response_probability": "Medium", "customer_support_impact": "High"},
+      "success_kpis": ["Option exercise rate", "Recall compensation cost", "Ancillary revenue"],
+      "industry_benchmarks": {"typical_revenue_lift": "5-10%", "adoption_rate": "Growing in Travel/Tech"},
+      "common_pitfalls": ["Over-selling options", "Poor communication on recalls"],
+      "exit_strategy": {"how_to_unwind": "Revert to fixed, non-refundable products", "customer_communication": "Simplify product lines", "transition_period": "6 months", "risks": "Loss of flexible segment"},
+      "cross_sell_opportunities": ["Insurance products", "Premium upgrade paths"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "-0.5 to -1.0", "demand_sensitivity": "Moderate"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "High-flexibility need", "effectiveness": "Very High"}, {"segment": "Price-sensitive/rigid", "effectiveness": "Low"}]},
+      "ab_testing_guidelines": {"test_duration": "3-6 months", "sample_size": "Customer cohorts", "variants_to_test": ["Option pricing", "Recall compensation"], "metrics_to_track": ["Adoption", "Fulfillment cost", "NPS"]}
+    },
+    {
+      "id": 11,
+      "name": "Buy-Back Contracts",
+      "description": "Manufacturer repurchases unsold inventory to share downside risk and coordinate channel.",
+      "category": "B2B Contracting",
+      "business_models": ["Publishing", "Retail", "Manufacturing"],
+      "industries": ["Books", "Apparel", "Consumer Goods"],
+      "target_segment": "Risk-averse retailers",
+      "implementation_difficulty": "Medium",
+      "effectiveness_rating": 9,
+      "pros": ["Coordinates supply chain", "Increases retailer stocking", "Shares inventory risk"],
+      "cons": ["Reverse logistics costs", "Moral hazard (over-ordering)", "Margin compression"],
+      "best_for": "High obsolescence risk, short lifecycle products",
+      "avoid_when": "Low margin, stable demand commodities",
+      "real_world_examples": ["Book publishers", "Blockbuster (historical)", "Apparel brands"],
+      "revenue_impact": "High",
+      "customer_psychology": "Risk mitigation; encourages higher initial orders",
+      "risk_assessment": {"overall_risk_level": "Medium", "risks": ["Reverse logistics", "Retailer over-ordering"], "mitigation_strategies": ["Set buy-back caps", "Optimize buy-back price"]},
+      "legal_compliance": {"considerations": ["Contract law", "Environmental regulations"], "restrictions": "Must comply with return/disposal laws", "disclosure_requirements": "Clear return conditions"},
+      "implementation": {"timeline": "1-3 months", "resource_requirements": {"budget": "$20k-100k", "team_size": "Supply Chain, Legal, Sales", "technology": "ERP, Reverse logistics systems"}},
+      "market_conditions": {"best_in": ["High demand uncertainty", "Short lifecycles"], "worst_in": ["Stable demand", "Low margins"], "seasonality": "Pre-season"},
+      "impact_analysis": {"cannibalization_risk": "Low", "brand_perception_impact": "Positive (partner support)", "customer_lifetime_value_impact": "Positive", "scalability_score": 8, "competitive_response_probability": "Medium", "customer_support_impact": "Low"},
+      "success_kpis": ["Retailer order quantity", "Return rate", "Channel profit"],
+      "industry_benchmarks": {"typical_order_lift": "20-40%", "adoption_rate": "Standard in Publishing"},
+      "common_pitfalls": ["Setting buy-back price too high", "Ignoring reverse logistics costs"],
+      "exit_strategy": {"how_to_unwind": "Shift to revenue sharing or wholesale price", "customer_communication": "Renegotiate annual terms", "transition_period": "6-12 months", "risks": "Retailer stock reduction"},
+      "cross_sell_opportunities": ["Joint marketing", "Markdown money funds"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "N/A (B2B)", "demand_sensitivity": "Driven by risk sharing"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Risk-averse retailers", "effectiveness": "Very High"}, {"segment": "Efficient retailers", "effectiveness": "Low"}]},
+      "ab_testing_guidelines": {"test_duration": "1-2 seasons", "sample_size": "Retailer clusters", "variants_to_test": ["Buy-back price", "Return limits"], "metrics_to_track": ["Order volume", "Return rate", "Channel margin"]}
+    },
+    {
+      "id": 12,
+      "name": "Revenue Sharing Contracts",
+      "description": "Retailer shares a percentage of sales revenue with the manufacturer in exchange for lower wholesale price.",
+      "category": "B2B Contracting",
+      "business_models": ["Video Rental (historical)", "Retail", "Digital Media"],
+      "industries": ["Entertainment", "Consumer Goods", "Software"],
+      "target_segment": "Retailers with high selling effort",
+      "implementation_difficulty": "High",
+      "effectiveness_rating": 8,
+      "pros": ["Aligns incentives", "Lowers retailer upfront cost", "Coordinates channel"],
+      "cons": ["Requires sales monitoring", "Administrative burden", "Potential for fraud"],
+      "best_for": "Products where retail effort drives demand",
+      "avoid_when": "Sales are difficult to track or verify",
+      "real_world_examples": ["Blockbuster & Studios", "Apple App Store", "Consignment retail"],
+      "revenue_impact": "High",
+      "customer_psychology": "Retailer motivated by higher margin per unit and lower risk",
+      "risk_assessment": {"overall_risk_level": "High", "risks": ["Sales underreporting", "Administrative costs"], "mitigation_strategies": ["Third-party auditing (e.g., Rentrak)", "Automated POS tracking"]},
+      "legal_compliance": {"considerations": ["Contract law", "Audit rights"], "restrictions": "Must ensure accurate reporting", "disclosure_requirements": "Clear revenue definitions"},
+      "implementation": {"timeline": "3-6 months", "resource_requirements": {"budget": "$50k+", "team_size": "Finance, IT, Sales", "technology": "POS integration, Audit systems"}},
+      "market_conditions": {"best_in": ["High retail effort impact", "Low wholesale margins"], "worst_in": ["Commodities", "Opaque sales channels"], "seasonality": "Year-round"},
+      "impact_analysis": {"cannibalization_risk": "Low", "brand_perception_impact": "Neutral", "customer_lifetime_value_impact": "Positive", "scalability_score": 6, "competitive_response_probability": "Low", "customer_support_impact": "Medium"},
+      "success_kpis": ["Retailer order volume", "Revenue share accuracy", "Channel profit"],
+      "industry_benchmarks": {"typical_share": "10-45%", "adoption_rate": "Common in Digital/Entertainment"},
+      "common_pitfalls": ["Failing to monitor sales", "Complex revenue definitions"],
+      "exit_strategy": {"how_to_unwind": "Revert to wholesale pricing", "customer_communication": "Phase out sharing terms", "transition_period": "6 months", "risks": "Retailer order drop"},
+      "cross_sell_opportunities": ["Marketing development funds", "Volume bonuses"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "N/A (B2B)", "demand_sensitivity": "Driven by margin alignment"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "High-effort retailers", "effectiveness": "Very High"}, {"segment": "Low-effort retailers", "effectiveness": "Low"}]},
+      "ab_testing_guidelines": {"test_duration": "6-12 months", "sample_size": "Retailer clusters", "variants_to_test": ["Revenue share %", "Wholesale price"], "metrics_to_track": ["Sell-through", "Channel profit", "Audit discrepancies"]}
+    },
+    {
+      "id": 13,
+      "name": "Quantity Flexibility Contracts",
+      "description": "Allowing order modification within limits after demand realization to balance risk.",
+      "category": "B2B Contracting",
+      "business_models": ["Manufacturing", "Tech Hardware", "Apparel"],
+      "industries": ["Electronics", "Automotive", "Consumer Goods"],
+      "target_segment": "Supply chains with high forecast uncertainty",
+      "implementation_difficulty": "High",
+      "effectiveness_rating": 8,
+      "pros": ["Reduces bullwhip effect", "Improves capacity utilization", "Shares forecast risk"],
+      "cons": ["Complex production planning", "Requires flexible manufacturing", "Margin leakage"],
+      "best_for": "High fixed costs, volatile demand environments",
+      "avoid_when": "Rigid, inflexible manufacturing processes",
+      "real_world_examples": ["Sun Microsystems", "Solectron", "Toyota", "IBM"],
+      "revenue_impact": "Medium-High",
+      "customer_psychology": "Risk reduction; encourages higher initial commitments",
+      "risk_assessment": {"overall_risk_level": "Medium", "risks": ["Production disruption", "Capacity hoarding"], "mitigation_strategies": ["Set clear adjustment windows", "Price flexibility premiums"]},
+      "legal_compliance": {"considerations": ["Contract law", "UCC"], "restrictions": "Must define modification limits clearly", "disclosure_requirements": "Adjustment windows and costs"},
+      "implementation": {"timeline": "3-6 months", "resource_requirements": {"budget": "$50k-150k", "team_size": "Supply Chain, Sales, Legal", "technology": "Advanced Planning Systems (APS), ERP"}},
+      "market_conditions": {"best_in": ["High demand uncertainty", "Long leadtimes"], "worst_in": ["Stable demand", "Short leadtimes"], "seasonality": "Pre-season"},
+      "impact_analysis": {"cannibalization_risk": "Low", "brand_perception_impact": "Positive (partnership)", "customer_lifetime_value_impact": "Positive", "scalability_score": 7, "competitive_response_probability": "Low", "customer_support_impact": "Low"},
+      "success_kpis": ["Forecast accuracy", "Adjustment utilization rate", "Channel profit"],
+      "industry_benchmarks": {"typical_flexibility": "10-30%", "adoption_rate": "Common in Tech/Auto"},
+      "common_pitfalls": ["Setting limits too wide", "Ignoring production constraints"],
+      "exit_strategy": {"how_to_unwind": "Revert to firm orders", "customer_communication": "Tighten adjustment windows", "transition_period": "3-6 months", "risks": "Inventory mismatch"},
+      "cross_sell_opportunities": ["Joint forecasting", "Capacity reservation"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "N/A (B2B)", "demand_sensitivity": "Driven by risk sharing"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "High-uncertainty buyers", "effectiveness": "Very High"}, {"segment": "Stable buyers", "effectiveness": "Low"}]},
+      "ab_testing_guidelines": {"test_duration": "1-2 seasons", "sample_size": "Buyer clusters", "variants_to_test": ["Flexibility limits", "Adjustment fees"], "metrics_to_track": ["Order accuracy", "Production efficiency", "Margin"]}
+    },
+    {
+      "id": 14,
+      "name": "Capacity Reservation & Payback",
+      "description": "Manufacturer pays for reserved capacity or receives payback for unused capacity to align incentives.",
+      "category": "B2B Contracting",
+      "business_models": ["Manufacturing", "Tech Hardware", "Supply Chain"],
+      "industries": ["Semiconductors", "Automotive", "Industrial Equipment"],
+      "target_segment": "Upstream suppliers with high capacity costs",
+      "implementation_difficulty": "High",
+      "effectiveness_rating": 8,
+      "pros": ["Ensures supply availability", "Shares capacity risk", "Prevents underinvestment"],
+      "cons": ["High upfront capital", "Complex contract administration", "Obsolescence risk"],
+      "best_for": "Critical components with long leadtimes and high capacity costs",
+      "avoid_when": "Commodity components with abundant capacity",
+      "real_world_examples": ["Boeing", "Apple", "Intel", "Automotive OEMs"],
+      "revenue_impact": "High (System-wide)",
+      "customer_psychology": "Security of supply; shared investment burden",
+      "risk_assessment": {"overall_risk_level": "High", "risks": ["Demand drop", "Supplier mismanagement", "Capital lockup"], "mitigation_strategies": ["Payback clauses", "Milestone payments", "Audit rights"]},
+      "legal_compliance": {"considerations": ["Contract law", "Antitrust"], "restrictions": "Must not create exclusive dealing violations", "disclosure_requirements": "Capacity terms and payback triggers"},
+      "implementation": {"timeline": "6-12 months", "resource_requirements": {"budget": "$100k-1M+", "team_size": "Procurement, Legal, Finance", "technology": "Supply Chain Management (SCM), ERP"}},
+      "market_conditions": {"best_in": ["Capacity constrained markets", "Long leadtimes"], "worst_in": ["Excess capacity markets"], "seasonality": "Pre-season planning"},
+      "impact_analysis": {"cannibalization_risk": "Low", "brand_perception_impact": "Positive (strategic partner)", "customer_lifetime_value_impact": "Very High", "scalability_score": 6, "competitive_response_probability": "Low", "customer_support_impact": "Low"},
+      "success_kpis": ["Capacity utilization", "On-time delivery", "Payback recovery"],
+      "industry_benchmarks": {"typical_reservation": "20-50% of capacity", "adoption_rate": "Common in Tech/Auto"},
+      "common_pitfalls": ["Over-reserving capacity", "Poor demand forecasting"],
+      "exit_strategy": {"how_to_unwind": "Shift to spot buying", "customer_communication": "Renegotiate annual terms", "transition_period": "12 months", "risks": "Supply shortage"},
+      "cross_sell_opportunities": ["Joint R&D", "Long-term strategic alliances"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "N/A (B2B)", "demand_sensitivity": "Driven by capacity security"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Strategic OEMs", "effectiveness": "Very High"}, {"segment": "Transactional buyers", "effectiveness": "Low"}]},
+      "ab_testing_guidelines": {"test_duration": "1-2 years", "sample_size": "Supplier clusters", "variants_to_test": ["Reservation fees", "Payback rates"], "metrics_to_track": ["Fill rate", "Capacity cost", "Channel profit"]}
+    },
+    {
+      "id": 15,
+      "name": "Advance Selling",
+      "description": "Selling before the season to acquire demand information and manage capacity.",
+      "category": "Lifecycle Pricing",
+      "business_models": ["Fashion", "Tech", "Travel", "Events"],
+      "industries": ["Apparel", "Consumer Electronics", "Hospitality"],
+      "target_segment": "Early adopters, risk-averse buyers",
+      "implementation_difficulty": "Medium",
+      "effectiveness_rating": 8,
+      "pros": ["Generates advance demand info", "Reduces capacity risk", "Improves cash flow"],
+      "cons": ["Cannibalizes regular season", "Requires discount incentives", "Forecast errors"],
+      "best_for": "Products with high capacity costs and uncertain demand",
+      "avoid_when": "Highly volatile demand with no learning effect",
+      "real_world_examples": ["Amazon (Pre-orders)", "Airlines", "Fashion brands", "Ticketmaster"],
+      "revenue_impact": "High",
+      "customer_psychology": "Value of early access; risk premium for guaranteed availability",
+      "risk_assessment": {"overall_risk_level": "Medium", "risks": ["Cannibalization", "Price expectation shifts"], "mitigation_strategies": ["Limit advance quantities", "Use advance selling for information only"]},
+      "legal_compliance": {"considerations": ["Consumer protection", "FTC guidelines"], "restrictions": "Must deliver as promised", "disclosure_requirements": "Clear delivery dates and refund policies"},
+      "implementation": {"timeline": "2-4 months", "resource_requirements": {"budget": "$20k-100k", "team_size": "Marketing, Supply Chain, IT", "technology": "E-commerce platforms, CRM"}},
+      "market_conditions": {"best_in": ["High capacity costs", "Uncertain demand"], "worst_in": ["Stable demand", "Low capacity costs"], "seasonality": "Pre-season"},
+      "impact_analysis": {"cannibalization_risk": "High", "brand_perception_impact": "Positive (exclusivity)", "customer_lifetime_value_impact": "Positive", "scalability_score": 8, "competitive_response_probability": "Medium", "customer_support_impact": "Medium"},
+      "success_kpis": ["Advance sales volume", "Forecast accuracy improvement", "Cash flow"],
+      "industry_benchmarks": {"typical_advance_share": "10-30%", "adoption_rate": "Common in Tech/Travel"},
+      "common_pitfalls": ["Discounting too deeply", "Failing to use info for production"],
+      "exit_strategy": {"how_to_unwind": "Shift to regular season sales", "customer_communication": "Focus on immediate availability", "transition_period": "3-6 months", "risks": "Capacity mismatch"},
+      "cross_sell_opportunities": ["Early access bundles", "Loyalty points"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "-1.0 to -2.0", "demand_sensitivity": "High"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Early adopters", "effectiveness": "Very High"}, {"segment": "Late majority", "effectiveness": "Low"}]},
+      "ab_testing_guidelines": {"test_duration": "1-2 seasons", "sample_size": "Customer cohorts", "variants_to_test": ["Advance discount depth", "Advance window length"], "metrics_to_track": ["Advance volume", "Regular season cannibalization", "Forecast error"]}
+    },
+    {
+      "id": 16,
+      "name": "Behavioral Framing (Loss Aversion)",
+      "description": "Presenting prices as discounts vs. surcharges to exploit prospect theory and gain/loss asymmetry.",
+      "category": "Behavioral Pricing",
+      "business_models": ["Retail", "B2B", "Services", "E-commerce"],
+      "industries": ["Consumer Goods", "Financial Services", "Travel"],
+      "target_segment": "All consumers, especially loss-averse buyers",
       "implementation_difficulty": "Low",
       "effectiveness_rating": 9,
-      "pros": [
-        "Influences perceived value dramatically",
-        "Increases conversion on mid-tier options",
-        "Works across price points",
-        "Easy A/B testing"
-      ],
-      "cons": [
-        "Requires careful price positioning",
-        "Can backfire if anchor is too unrealistic",
-        "May reduce trust if obviously manipulative"
-      ],
-      "best_for": "Multi-tier product/service offerings, upselling strategies",
-      "avoid_when": "Single-product businesses or transparent pricing cultures",
-      "real_world_examples": ["Apple (iPhone tiers)", "Salesforce", "Williams Sonoma", "Netflix plans"],
-      "revenue_impact": "High",
-      "customer_psychology": "Relativity principle: Value is judged relative to alternatives presented",
-      
-      "risk_assessment": {
-        "overall_risk_level": "Low-Medium",
-        "risks": [
-          "Anchor price too high damages credibility",
-          "Customers may feel manipulated",
-          "Regulatory scrutiny if anchor is fake"
-        ],
-        "mitigation_strategies": [
-          "Ensure anchor product is genuine and available",
-          "Keep price differences realistic (20-40% not 200%)",
-          "Test different anchor positions"
-        ]
-      },
-      "legal_compliance": {
-        "considerations": ["Anchor price must be genuine (not fake MSRP)", "Must have sold at anchor price previously or currently", "FTC guidelines on reference pricing"],
-        "restrictions": "Cannot use fabricated 'original' prices",
-        "disclosure_requirements": "If using 'was/now' pricing, must have sold at 'was' price"
-      },
-      "implementation": {
-        "timeline": "1-14 days",
-        "resource_requirements": {
-          "budget": "$0-500",
-          "team_size": "2-3 people (marketing, pricing, design)",
-          "technology": "Website/Catalog update capability",
-          "external_vendors": "None typically"
-        },
-        "technology_stack": ["Website CMS", "Pricing Display System", "A/B Testing Tool", "Analytics Platform"],
-        "training_needs": "Sales team training on value articulation",
-        "integration_requirements": ["Product Catalog", "Pricing Database", "Display Systems"]
-      },
-      "market_conditions": {
-        "best_in": ["Complex purchase decisions", "High-value items", "New product launches", "Uncertain value perception"],
-        "worst_in": ["Commodity purchases", "Price-transparent markets", "Highly informed buyers"],
-        "seasonality": "Year-round effective"
-      },
-      "impact_analysis": {
-        "cannibalization_risk": "Medium (may shift customers from premium to mid-tier)",
-        "brand_perception_impact": "Positive if done well, Negative if manipulative",
-        "customer_lifetime_value_impact": "Positive (+10-20% through tier upgrades)",
-        "scalability_score": 9,
-        "competitive_response_probability": "Medium (requires strategic pricing)",
-        "customer_support_impact": "Low (may increase questions about differences)"
-      },
-      "success_kpis": [
-        "Mid-tier conversion increase: 15-30%",
-        "Average selling price: +10-25%",
-        "Premium tier selection: +5-15%",
-        "Overall revenue per visitor: +15-35%"
-      ],
-      "industry_benchmarks": {
-        "typical_revenue_lift": "15-30%",
-        "adoption_rate": "70% of multi-tier businesses",
-        "average_effectiveness": "22% increase in mid-tier selection"
-      },
-      "common_pitfalls": [
-        "Anchor price too extreme loses credibility",
-        "Only 2 options instead of 3 (need decoy)",
-        "Not clearly differentiating tiers",
-        "Anchor product unavailable or fake"
-      ],
-      "exit_strategy": {
-        "how_to_unwind": "Remove anchor product or adjust pricing gradually",
-        "customer_communication": "Usually not needed",
-        "transition_period": "Immediate to 2 weeks",
-        "risks": "May reduce mid-tier conversions if removed abruptly"
-      },
-      "cross_sell_opportunities": [
-        "Bundle anchor with accessories",
-        "Offer trade-in programs from lower tiers",
-        "Create upgrade paths with incentives"
-      ],
-      "price_elasticity_estimate": {
-        "elasticity_coefficient": "-0.5 to -0.9",
-        "demand_sensitivity": "Low-Moderate (anchoring reduces sensitivity)",
-        "optimal_price_points": "Anchor at 150-200% of target price"
-      },
-      "customer_segmentation_matrix": {
-        "primary_segments": [
-          {
-            "segment": "Value Seekers",
-            "effectiveness": "Very High",
-            "percentage_of_market": "40-50%"
-          },
-          {
-            "segment": "Quality-Conscious",
-            "effectiveness": "High",
-            "percentage_of_market": "25-30%"
-          },
-          {
-            "segment": "Premium Buyers",
-            "effectiveness": "Medium",
-            "percentage_of_market": "10-15%"
-          }
-        ]
-      },
-      "ab_testing_guidelines": {
-        "test_duration": "3-6 weeks",
-        "sample_size": "Minimum 2000 visitors per variant",
-        "variants_to_test": ["Different anchor prices", "Anchor position (first vs middle)", "Number of tiers (2 vs 3 vs 4)"],
-        "metrics_to_track": ["Tier selection distribution", "Conversion rate", "AOV", "Revenue per visitor"]
-      }
+      "pros": ["Increases perceived value", "Reduces price resistance", "No cost to implement"],
+      "cons": ["Regulatory risks (surcharges)", "Brand perception if overused", "Customer confusion"],
+      "best_for": "Payment methods, loyalty programs, promotional offers",
+      "avoid_when": "Highly regulated industries (e.g., credit card surcharges)",
+      "real_world_examples": ["Gas stations (cash discount)", "Airlines (baggage fees vs. included)", "Retail (coupons)"],
+      "revenue_impact": "Medium-High",
+      "customer_psychology": "Prospect theory: Losses loom larger than gains; framing effects",
+      "risk_assessment": {"overall_risk_level": "Low-Medium", "risks": ["Regulatory backlash", "Customer anger if perceived as deceptive"], "mitigation_strategies": ["Transparent communication", "Comply with local laws"]},
+      "legal_compliance": {"considerations": ["FTC", "State credit card surcharge laws", "CFPB"], "restrictions": "Cannot frame mandatory fees as optional discounts", "disclosure_requirements": "Clear total price display"},
+      "implementation": {"timeline": "1-4 weeks", "resource_requirements": {"budget": "$0-10k", "team_size": "Marketing, Legal, Pricing", "technology": "POS, E-commerce UI"}},
+      "market_conditions": {"best_in": ["High price sensitivity", "Competitive markets"], "worst_in": ["Monopolies", "Commodities"], "seasonality": "Year-round"},
+      "impact_analysis": {"cannibalization_risk": "Low", "brand_perception_impact": "Positive if framed as benefit", "customer_lifetime_value_impact": "Positive", "scalability_score": 10, "competitive_response_probability": "High", "customer_support_impact": "Low"},
+      "success_kpis": ["Conversion rate", "Payment method mix", "Promo redemption"],
+      "industry_benchmarks": {"typical_lift": "5-15%", "adoption_rate": "Universal"},
+      "common_pitfalls": ["Using surcharges where illegal", "Over-framing leading to distrust"],
+      "exit_strategy": {"how_to_unwind": "Standardize pricing presentation", "customer_communication": "Simplify price tags", "transition_period": "1-2 months", "risks": "Minimal"},
+      "cross_sell_opportunities": ["Loyalty program enrollment", "Premium payment methods"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "Asymmetric", "demand_sensitivity": "High"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Loss-averse buyers", "effectiveness": "Very High"}, {"segment": "Rational calculators", "effectiveness": "Low"}]},
+      "ab_testing_guidelines": {"test_duration": "2-4 weeks", "sample_size": "Minimum 2000 visitors", "variants_to_test": ["Discount frame vs. Surcharge frame", "Gain vs. Loss messaging"], "metrics_to_track": ["Conversion", "AOV", "NPS"]}
+    },
+    {
+      "id": 17,
+      "name": "Game-Theoretic Pricing",
+      "description": "Anticipating competitor responses to avoid price wars and optimize strategic positioning.",
+      "category": "Strategic Pricing",
+      "business_models": ["Oligopolies", "B2B", "Retail", "Telecom"],
+      "industries": ["Airlines", "Telecom", "Consumer Goods", "Tech"],
+      "target_segment": "Markets with few, interdependent competitors",
+      "implementation_difficulty": "Very High",
+      "effectiveness_rating": 8,
+      "pros": ["Prevents destructive price wars", "Optimizes long-term profit", "Strategic alignment"],
+      "cons": ["Requires deep competitor insight", "Complex modeling", "Risk of misjudgment"],
+      "best_for": "Oligopolistic markets, repeated interactions",
+      "avoid_when": "Highly fragmented, perfect competition markets",
+      "real_world_examples": ["Coca-Cola vs. Pepsi", "Major Airlines", "Telecom providers"],
+      "revenue_impact": "High (Protects downside)",
+      "customer_psychology": "N/A (B2B/Strategic focus)",
+      "risk_assessment": {"overall_risk_level": "High", "risks": ["Competitor misinterpretation", "Antitrust violations", "Prisoner's dilemma traps"], "mitigation_strategies": ["Scenario planning", "Legal review", "Tit-for-tat strategies"]},
+      "legal_compliance": {"considerations": ["Antitrust laws", "Sherman Act", "Clayton Act"], "restrictions": "No explicit collusion or price fixing", "disclosure_requirements": "Independent pricing decisions"},
+      "implementation": {"timeline": "3-6 months", "resource_requirements": {"budget": "$50k-200k", "team_size": "Strategy, Economics, Legal", "technology": "Game theory modeling, Competitive intelligence"}},
+      "market_conditions": {"best_in": ["Oligopolies", "High barriers to entry"], "worst_in": ["Perfect competition", "Monopolies"], "seasonality": "Year-round"},
+      "impact_analysis": {"cannibalization_risk": "Low", "brand_perception_impact": "Neutral", "customer_lifetime_value_impact": "Positive", "scalability_score": 5, "competitive_response_probability": "Very High", "customer_support_impact": "Low"},
+      "success_kpis": ["Market share stability", "Industry margin levels", "Win/loss rate"],
+      "industry_benchmarks": {"typical_margin_protection": "5-10%", "adoption_rate": "Standard in Oligopolies"},
+      "common_pitfalls": ["Assuming rational competitors", "Ignoring customer switching costs"],
+      "exit_strategy": {"how_to_unwind": "Shift to value-based competition", "customer_communication": "Focus on product differentiation", "transition_period": "6-12 months", "risks": "Price war initiation"},
+      "cross_sell_opportunities": ["Strategic alliances", "Joint ventures"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "Endogenous", "demand_sensitivity": "Strategic"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Strategic buyers", "effectiveness": "High"}, {"segment": "Price-sensitive buyers", "effectiveness": "Medium"}]},
+      "ab_testing_guidelines": {"test_duration": "6-12 months", "sample_size": "Market-wide", "variants_to_test": ["Price leadership vs. Followership", "Discount thresholds"], "metrics_to_track": ["Market share", "Margin", "Competitor response time"]}
+    },
+    {
+      "id": 18,
+      "name": "Pan-Local Global Pricing",
+      "description": "Harmonizing global strategy with local market conditions, currency, and cultural norms.",
+      "category": "Global Pricing",
+      "business_models": ["Multinational Retail", "Tech Hardware", "Automotive", "Luxury"],
+      "industries": ["Consumer Goods", "Technology", "Apparel", "Automotive"],
+      "target_segment": "Global consumers, regional buyers",
+      "implementation_difficulty": "Very High",
+      "effectiveness_rating": 9,
+      "pros": ["Maximizes global profit", "Prevents gray market arbitrage", "Aligns with local value"],
+      "cons": ["Complex administration", "Currency volatility", "Cultural misalignment"],
+      "best_for": "Multinational companies with diverse regional markets",
+      "avoid_when": "Purely domestic or highly commoditized global goods",
+      "real_world_examples": ["Apple", "Louis Vuitton", "Toyota", "Unilever"],
+      "revenue_impact": "Very High",
+      "customer_psychology": "Local value perception; cultural pricing norms (e.g., negotiation vs. fixed)",
+      "risk_assessment": {"overall_risk_level": "High", "risks": ["Gray market arbitrage", "Currency shocks", "Brand dilution"], "mitigation_strategies": ["Currency hedging", "Regional product differentiation", "Strict channel control"]},
+      "legal_compliance": {"considerations": ["Transfer pricing", "Local tax laws", "Antitrust"], "restrictions": "Must comply with local pricing regulations", "disclosure_requirements": "Local tax and duty disclosures"},
+      "implementation": {"timeline": "6-12 months", "resource_requirements": {"budget": "$500k+", "team_size": "Global Pricing, Finance, Legal, Regional GMs", "technology": "Global ERP, Transfer pricing software"}},
+      "market_conditions": {"best_in": ["Diverse purchasing power", "Strong brand equity"], "worst_in": ["Highly integrated markets", "Commodities"], "seasonality": "Year-round"},
+      "impact_analysis": {"cannibalization_risk": "High (Gray markets)", "brand_perception_impact": "Positive if localized well", "customer_lifetime_value_impact": "Very High", "scalability_score": 6, "competitive_response_probability": "Medium", "customer_support_impact": "Medium"},
+      "success_kpis": ["Global margin %", "Gray market volume", "Local market share"],
+      "industry_benchmarks": {"typical_price_variance": "20-50% across regions", "adoption_rate": "Standard for Multinationals"},
+      "common_pitfalls": ["Simple currency conversion pricing", "Ignoring local competitive sets"],
+      "exit_strategy": {"how_to_unwind": "Standardize global pricing", "customer_communication": "Harmonize brand value", "transition_period": "12-18 months", "risks": "Loss of emerging market share"},
+      "cross_sell_opportunities": ["Regional exclusive products", "Global loyalty programs"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "Varies by region", "demand_sensitivity": "Highly variable"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Developed market buyers", "effectiveness": "High"}, {"segment": "Emerging market buyers", "effectiveness": "Medium"}]},
+      "ab_testing_guidelines": {"test_duration": "6-12 months", "sample_size": "Regional clusters", "variants_to_test": ["Local price points", "Discount structures"], "metrics_to_track": ["Local volume", "Margin", "Gray market activity"]}
+    },
+    {
+      "id": 19,
+      "name": "Lean Six Sigma Pricing Execution",
+      "description": "Reducing pricing defects (e.g., unauthorized discounts) via DMAIC to improve margin realization.",
+      "category": "Pricing Operations",
+      "business_models": ["Manufacturing", "B2B Services", "Retail"],
+      "industries": ["Industrial Equipment", "Telecom", "Consumer Goods"],
+      "target_segment": "Internal sales and pricing teams",
+      "implementation_difficulty": "High",
+      "effectiveness_rating": 8,
+      "pros": ["Reduces margin leakage", "Improves process efficiency", "Aligns Sales & Pricing"],
+      "cons": ["Cultural resistance", "Requires top management support", "Focuses on execution, not strategy"],
+      "best_for": "Companies with high pricing defect rates and decentralized execution",
+      "avoid_when": "Companies needing strategic pricing transformation",
+      "real_world_examples": ["Motorola", "GE", "Acme Industrial (Case Study)"],
+      "revenue_impact": "High (Margin protection)",
+      "customer_psychology": "Internal focus; changes sales behavior and accountability",
+      "risk_assessment": {"overall_risk_level": "Medium", "risks": ["Salesforce backlash", "Process rigidity", "Loss of flexibility"], "mitigation_strategies": ["Cross-functional steering committee", "Exception tracking codes", "Gradual rollout"]},
+      "legal_compliance": {"considerations": ["Internal controls", "SOX compliance"], "restrictions": "Must maintain accurate financial reporting", "disclosure_requirements": "Audit trails for pricing exceptions"},
+      "implementation": {"timeline": "3-6 months", "resource_requirements": {"budget": "$50k-150k", "team_size": "Master Black Belt, Pricing, Sales, IT", "technology": "ERP, Exception tracking dashboards"}},
+      "market_conditions": {"best_in": ["High discount variability", "Decentralized sales"], "worst_in": ["Centralized, automated pricing"], "seasonality": "Year-round"},
+      "impact_analysis": {"cannibalization_risk": "Low", "brand_perception_impact": "Neutral", "customer_lifetime_value_impact": "Positive", "scalability_score": 7, "competitive_response_probability": "Low", "customer_support_impact": "Low"},
+      "success_kpis": ["Pricing defect rate", "Average transaction margin", "Quote-to-order cycle time"],
+      "industry_benchmarks": {"typical_margin_lift": "0.5-2.0%", "adoption_rate": "Common in Manufacturing"},
+      "common_pitfalls": ["Lack of top management support", "Ignoring sales incentives"],
+      "exit_strategy": {"how_to_unwind": "Revert to decentralized pricing", "customer_communication": "Internal process change", "transition_period": "3-6 months", "risks": "Margin leakage return"},
+      "cross_sell_opportunities": ["Process optimization for other functions", "Advanced analytics integration"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "N/A (Internal)", "demand_sensitivity": "N/A"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "Internal Sales Teams", "effectiveness": "High"}, {"segment": "Pricing Analysts", "effectiveness": "High"}]},
+      "ab_testing_guidelines": {"test_duration": "3-6 months", "sample_size": "Territory/Region clusters", "variants_to_test": ["Discount authority levels", "Exception tracking codes"], "metrics_to_track": ["Defect rate", "Margin realization", "Cycle time"]}
+    },
+    {
+      "id": 20,
+      "name": "Overbooking Strategies",
+      "description": "Selling beyond capacity to hedge against cancellations and no-shows, maximizing utilization.",
+      "category": "Revenue Management",
+      "business_models": ["Airlines", "Hotels", "Car Rental", "Events"],
+      "industries": ["Travel", "Hospitality", "Logistics"],
+      "target_segment": "Customers with high cancellation probabilities",
+      "implementation_difficulty": "High",
+      "effectiveness_rating": 9,
+      "pros": ["Maximizes capacity utilization", "Increases revenue per available unit", "Hedges no-shows"],
+      "cons": ["Denied service costs", "Customer ill-will", "Regulatory risks"],
+      "best_for": "Perishable capacity with predictable cancellation rates",
+      "avoid_when": "High cost of denied service or severe reputational risk",
+      "real_world_examples": ["Major Airlines", "Marriott", "Hertz"],
+      "revenue_impact": "Very High",
+      "customer_psychology": "Risk of denied service; requires robust compensation and recovery",
+      "risk_assessment": {"overall_risk_level": "High", "risks": ["Overbooking disasters", "Customer backlash", "Regulatory fines"], "mitigation_strategies": ["Accurate no-show forecasting", "Volunteer compensation auctions", "Clear disclosure"]},
+      "legal_compliance": {"considerations": ["DOT regulations", "Consumer protection", "Contract law"], "restrictions": "Must compensate denied service per regulations", "disclosure_requirements": "Clear overbooking and denial policies"},
+      "implementation": {"timeline": "3-6 months", "resource_requirements": {"budget": "$50k-200k", "team_size": "RM, Operations, Legal", "technology": "Overbooking algorithms, GDS integration"}},
+      "market_conditions": {"best_in": ["High cancellation rates", "Peak demand periods"], "worst_in": ["Low cancellation rates", "High denied service costs"], "seasonality": "Peak seasons"},
+      "impact_analysis": {"cannibalization_risk": "Low", "brand_perception_impact": "Negative if mismanaged", "customer_lifetime_value_impact": "Neutral", "scalability_score": 8, "competitive_response_probability": "Medium", "customer_support_impact": "Very High"},
+      "success_kpis": ["Load factor / Occupancy", "Denied service rate", "Compensation cost"],
+      "industry_benchmarks": {"typical_overbooking": "5-15% above capacity", "adoption_rate": "100% of major airlines/hotels"},
+      "common_pitfalls": ["Poor no-show forecasting", "Inadequate compensation for denied service"],
+      "exit_strategy": {"how_to_unwind": "Cap bookings at 100% capacity", "customer_communication": "Guaranteed availability", "transition_period": "3-6 months", "risks": "Revenue drop from empty seats"},
+      "cross_sell_opportunities": ["Volunteer upgrade offers", "Loyalty points for denied service"],
+      "price_elasticity_estimate": {"elasticity_coefficient": "N/A", "demand_sensitivity": "Driven by cancellation behavior"},
+      "customer_segmentation_matrix": {"primary_segments": [{"segment": "High cancellation risk", "effectiveness": "Very High"}, {"segment": "Firm bookings", "effectiveness": "Low"}]},
+      "ab_testing_guidelines": {"test_duration": "3-6 months", "sample_size": "Flight/Property clusters", "variants_to_test": ["Overbooking limits", "Compensation offers"], "metrics_to_track": ["Load factor", "Denied service cost", "NPS"]}
     }
   ],
   "global_frameworks": {
     "implementation_roadmap": {
       "phase_1_quick_wins": {
         "duration": "0-30 days",
-        "strategies": ["Charm Pricing", "Psychological Pricing", "Anchor Pricing", "Decoy Pricing"],
-        "expected_impact": "5-15% revenue increase",
+        "strategies": ["Behavioral Framing", "Charm Pricing", "Anchor Pricing", "Lean Six Sigma Pricing Execution"],
+        "expected_impact": "5-15% margin improvement",
         "resource_intensity": "Low"
       },
       "phase_2_medium_term": {
         "duration": "1-6 months",
-        "strategies": ["Bundle Pricing", "Tiered Pricing", "Subscription Pricing", "Loss Leader"],
+        "strategies": ["Price Bundling", "Unbundling & Versioning", "Trade Promotions", "Advance Selling"],
         "expected_impact": "15-35% revenue increase",
         "resource_intensity": "Medium"
       },
       "phase_3_advanced": {
         "duration": "6-18 months",
-        "strategies": ["Value-Based Pricing", "Dynamic Pricing", "Freemium", "Geographic Pricing"],
-        "expected_impact": "30-100% revenue increase",
+        "strategies": ["Network Revenue Management", "Customized Pricing", "B2B Contracts (Buy-Back/Revenue Sharing)", "Pan-Local Global Pricing"],
+        "expected_impact": "30-100% revenue/profit increase",
         "resource_intensity": "High"
       }
     },
+    "lean_six_sigma_dmaic": {
+      "purpose": "Improve pricing execution and reduce 'defects' (e.g., unauthorized discounts, margin leakage).",
+      "dmaic_process": {
+        "define": "Identify pricing defects and set financial goals.",
+        "measure": "Map 'as-is' process (SIPOC/VSM), verify data reliability (MSA).",
+        "analyze": "Root-cause analysis (Fishbone/C&E Matrix), statistical analysis of price variation.",
+        "improve": "Implement graduated discount authority, exception tracking codes.",
+        "control": "Monthly price review meetings, dashboard metrics, sustain controls."
+      },
+      "key_benefits": ["Reduces revenue leakage", "Aligns Sales and Pricing", "Provides data-driven negotiation leverage"]
+    },
+    "b2b_contract_coordination": {
+      "purpose": "Align incentives and share risks/profits in decentralized supply chains.",
+      "contract_types": {
+        "buy_back": "Manufacturer repurchases unsold inventory to share downside risk.",
+        "revenue_sharing": "Retailer shares sales revenue for lower wholesale price.",
+        "quantity_flexibility": "Allows order modification within limits after demand realization.",
+        "capacity_reservation": "Manufacturer pays for reserved capacity to ensure supply."
+      },
+      "key_metrics": ["Channel profit", "Order quantity", "Forecast accuracy", "Return rate"]
+    },
+    "global_pan_local_strategy": {
+      "purpose": "Harmonize global brand strategy with local market realities.",
+      "components": {
+        "currency_hedging": "Reduce exchange rate volatility without distorting local price positioning.",
+        "cultural_negotiation": "Adapt pricing structures to local norms (e.g., negotiation vs. fixed).",
+        "gray_market_control": "Prevent arbitrage through regional product differentiation and channel control."
+      },
+      "key_metrics": ["Global margin %", "Local market share", "Gray market volume"]
+    },
+    "behavioral_economics_integration": {
+      "purpose": "Leverage cognitive biases to optimize pricing presentation and promotions.",
+      "concepts": {
+        "prospect_theory": "Loss aversion; frame prices as discounts vs. surcharges.",
+        "reference_pricing": "Manage consumer memory of past prices via promo frequency/depth control.",
+        "framing_effects": "Present bundles and tariffs to maximize perceived transaction utility."
+      },
+      "key_metrics": ["Conversion rate", "Promo ROI", "Reference price index"]
+    },
     "by_business_maturity": {
       "startup": {
-        "recommended_strategies": ["Penetration Pricing", "Freemium", "Charm Pricing", "Bundle Pricing"],
-        "rationale": "Focus on customer acquisition and market validation",
-        "avoid": ["Premium Pricing", "Complex Dynamic Pricing"]
+        "recommended_strategies": ["Behavioral Framing", "Price Bundling", "Advance Selling", "Lean Six Sigma Pricing"],
+        "rationale": "Focus on customer acquisition, cash flow, and execution discipline"
       },
       "growth_stage": {
-        "recommended_strategies": ["Tiered Pricing", "Subscription Pricing", "Value-Based Pricing", "Anchor Pricing"],
-        "rationale": "Optimize revenue per customer and segment market",
-        "avoid": ["Loss Leader (unless strategic)", "Pure Cost-Plus"]
+        "recommended_strategies": ["Unbundling & Versioning", "Trade Promotions", "Customized Pricing", "Reference Price Modeling"],
+        "rationale": "Optimize revenue per customer and segment market"
       },
       "mature_enterprise": {
-        "recommended_strategies": ["Dynamic Pricing", "Geographic Pricing", "Value-Based Pricing", "Competitive Pricing"],
-        "rationale": "Maximize margins and defend market position",
-        "avoid": ["Penetration Pricing", "Pay-What-You-Want"]
+        "recommended_strategies": ["Network Revenue Management", "B2B Contracts", "Pan-Local Global Pricing", "Game-Theoretic Pricing"],
+        "rationale": "Maximize margins, defend market position, and coordinate global supply chains"
       }
     },
     "by_industry_vertical": {
       "saas_technology": {
-        "primary_strategies": ["Freemium", "Tiered Pricing", "Subscription Pricing", "Value-Based Pricing"],
-        "secondary_strategies": ["Penetration Pricing", "Anchor Pricing", "Geographic Pricing"],
-        "key_metrics": ["MRR", "ARR", "Churn Rate", "LTV:CAC Ratio", "Net Revenue Retention"]
+        "primary_strategies": ["Nonlinear Pricing (Two-Part Tariffs)", "Price Bundling", "Unbundling & Versioning", "Advance Selling"],
+        "key_metrics": ["MRR", "ARR", "Churn Rate", "LTV:CAC Ratio", "Attach Rate"]
       },
-      "ecommerce_retail": {
-        "primary_strategies": ["Charm Pricing", "Bundle Pricing", "Dynamic Pricing", "Loss Leader"],
-        "secondary_strategies": ["Subscription Pricing", "Buy Now Pay Later", "Competitive Pricing"],
-        "key_metrics": ["Conversion Rate", "AOV", "Customer Acquisition Cost", "Repeat Purchase Rate"]
+      "travel_hospitality": {
+        "primary_strategies": ["Network Revenue Management", "Overbooking Strategies", "Services Engineering (Real Options)", "Markdown Management"],
+        "key_metrics": ["RevPAR", "RASM", "Load Factor", "Denied Service Rate"]
       },
-      "b2b_services": {
-        "primary_strategies": ["Value-Based Pricing", "Tiered Pricing", "Subscription Pricing", "Cost-Plus Pricing"],
-        "secondary_strategies": ["Anchor Pricing", "Competitive Pricing", "Bundle Pricing"],
-        "key_metrics": ["Deal Size", "Win Rate", "Gross Margin", "Client Retention"]
+      "b2b_manufacturing": {
+        "primary_strategies": ["Customized Pricing", "B2B Contracts (Buy-Back/Revenue Sharing)", "Lean Six Sigma Pricing Execution", "Capacity Reservation"],
+        "key_metrics": ["Win Rate", "Margin Realization", "Pricing Defect Rate", "Channel Profit"]
       },
-      "hospitality_travel": {
-        "primary_strategies": ["Dynamic Pricing", "Surge Pricing", "Geographic Pricing", "Bundle Pricing"],
-        "secondary_strategies": ["Penetration Pricing", "Subscription Pricing", "Charm Pricing"],
-        "key_metrics": ["RevPAR", "Occupancy Rate", "ADR", "Booking Conversion"]
-      }
-    },
-    "pricing_maturity_model": {
-      "level_1_reactive": {
-        "characteristics": ["Cost-plus pricing", "Following competitors", "Infrequent price changes"],
-        "strategies_to_adopt": ["Charm Pricing", "Competitive Pricing", "Psychological Pricing"]
-      },
-      "level_2_proactive": {
-        "characteristics": ["Market-based pricing", "Regular reviews", "Basic segmentation"],
-        "strategies_to_adopt": ["Tiered Pricing", "Bundle Pricing", "Anchor Pricing", "Subscription Pricing"]
-      },
-      "level_3_strategic": {
-        "characteristics": ["Value-based pricing", "Advanced segmentation", "Data-driven decisions"],
-        "strategies_to_adopt": ["Value-Based Pricing", "Dynamic Pricing", "Geographic Pricing"]
-      },
-      "level_4_optimized": {
-        "characteristics": ["AI-driven pricing", "Real-time optimization", "Predictive analytics"],
-        "strategies_to_adopt": ["Dynamic Pricing", "Surge Pricing", "Personalized Pricing"]
-      }
-    },
-    "decision_tree": {
-      "questions": [
-        {
-          "question": "What is your primary business goal?",
-          "options": {
-            "customer_acquisition": ["Penetration Pricing", "Freemium", "Loss Leader"],
-            "revenue_maximization": ["Value-Based Pricing", "Dynamic Pricing", "Premium Pricing"],
-            "market_share": ["Penetration Pricing", "Competitive Pricing", "Bundle Pricing"],
-            "profit_margin": ["Premium Pricing", "Value-Based Pricing", "Price Skimming"]
-          }
-        },
-        {
-          "question": "What is your product type?",
-          "options": {
-            "digital_saas": ["Freemium", "Subscription Pricing", "Tiered Pricing"],
-            "physical_product": ["Bundle Pricing", "Charm Pricing", "Loss Leader"],
-            "service": ["Value-Based Pricing", "Tiered Pricing", "Subscription Pricing"],
-            "commodity": ["Competitive Pricing", "Dynamic Pricing", "Cost-Plus Pricing"]
-          }
-        },
-        {
-          "question": "What is your market position?",
-          "options": {
-            "market_leader": ["Premium Pricing", "Value-Based Pricing", "Bundle Pricing"],
-            "challenger": ["Penetration Pricing", "Competitive Pricing", "Loss Leader"],
-            "niche_player": ["Premium Pricing", "Value-Based Pricing", "Geographic Pricing"]
-          }
-        }
-      ]
-    },
-    "technology_requirements": {
-      "essential_tools": [
-        "Pricing Management Software",
-        "Competitive Intelligence Tools",
-        "Analytics Platform",
-        "A/B Testing Tools"
-      ],
-      "advanced_tools": [
-        "AI/ML Pricing Optimization",
-        "Dynamic Pricing Engine",
-        "Customer Segmentation Platform",
-        "Price Elasticity Modeling"
-      ],
-      "vendor_examples": {
-        "pricing_software": ["Pricefx", "Pros", "Vendavo", "Zilliant"],
-        "competitive_intel": ["Prisync", "Competera", "Wiser"],
-        "analytics": ["Google Analytics", "Mixpanel", "Amplitude"]
+      "consumer_goods_retail": {
+        "primary_strategies": ["Trade & Sales Promotions", "Reference Price Modeling", "Behavioral Framing", "Pan-Local Global Pricing"],
+        "key_metrics": ["Promo ROI", "Base vs. Lift Volume", "Market Share", "Gray Market Volume"]
       }
     },
     "governance_framework": {
       "pricing_committee": {
-        "members": ["CFO", "Head of Sales", "Head of Marketing", "Product Manager", "Data Analyst"],
-        "meeting_frequency": "Monthly for strategic, Weekly for tactical",
-        "responsibilities": [
-          "Approve pricing changes >5%",
-          "Review pricing performance metrics",
-          "Authorize promotional pricing",
-          "Monitor competitive landscape"
-        ]
+        "members": ["CFO", "Head of Sales", "Head of Marketing", "Product Manager", "Data Analyst", "Legal/Compliance"],
+        "meeting_frequency": "Monthly for strategic, Weekly for tactical/execution defects"
       },
       "approval_workflow": {
         "minor_changes": "Product Manager approval (<5% change)",
-        "moderate_changes": "Department Head approval (5-15% change)",
-        "major_changes": "Executive Committee approval (>15% change)",
-        "strategic_changes": "Board notification (>30% change or new model)"
+        "moderate_changes": "Pricing Committee approval (5-15% change or B2B contract exceptions)",
+        "major_changes": "Executive Committee approval (>15% change or new RM model)",
+        "strategic_changes": "Board notification (>30% change or global pricing overhaul)"
       }
     },
     "measurement_framework": {
-      "financial_metrics": [
-        "Revenue Growth",
-        "Gross Margin %",
-        "Average Selling Price",
-        "Price Realization",
-        "Discount Rate"
-      ],
-      "customer_metrics": [
-        "Customer Lifetime Value",
-        "Net Promoter Score",
-        "Price Satisfaction Score",
-        "Churn Rate",
-        "Conversion Rate"
-      ],
-      "competitive_metrics": [
-        "Price Position vs Competition",
-        "Market Share",
-        "Win/Loss Rate",
-        "Price Premium/Discount"
-      ],
-      "operational_metrics": [
-        "Price Change Frequency",
-        "Time to Implement Price Changes",
-        "Pricing Accuracy",
-        "Discount Approval Rate"
-      ]
+      "financial_metrics": ["Revenue Growth", "Gross Margin %", "Average Selling Price", "Price Realization", "Discount Rate"],
+      "customer_metrics": ["Customer Lifetime Value", "Net Promoter Score", "Price Satisfaction Score", "Churn Rate", "Conversion Rate"],
+      "operational_metrics": ["Price Change Frequency", "Time to Implement Price Changes", "Pricing Accuracy", "Discount Approval Rate", "Revenue Leakage %"],
+      "supply_chain_metrics": ["Bullwhip Effect Variance", "Channel Inventory Days", "Sell-through Rate", "Contract Compliance %"]
     },
     "risk_management": {
       "common_risks": [
-        {
-          "risk": "Price Wars",
-          "indicators": ["Competitor price cuts", "Margin compression", "Market share loss"],
-          "mitigation": ["Focus on value not price", "Differentiate offering", "Improve efficiency"]
-        },
-        {
-          "risk": "Customer Backlash",
-          "indicators": ["Negative social media", "Increased support tickets", "Churn increase"],
-          "mitigation": ["Transparent communication", "Grandfather existing customers", "Provide value justification"]
-        },
-        {
-          "risk": "Regulatory Issues",
-          "indicators": ["Legal inquiries", "Competitor complaints", "Consumer protection alerts"],
-          "mitigation": ["Legal review of pricing", "Avoid deceptive practices", "Document pricing rationale"]
-        },
-        {
-          "risk": "Channel Conflict",
-          "indicators": ["Partner complaints", "Reduced partner sales", "Direct vs indirect tension"],
-          "mitigation": ["Channel-specific pricing", "Partner margin protection", "Clear channel strategy"]
-        }
+        {"risk": "Price Wars", "indicators": ["Competitor price cuts", "Margin compression"], "mitigation": ["Game-Theoretic Pricing", "Focus on value not price", "Differentiate via versioning"]},
+        {"risk": "Customer Backlash (Unfairness)", "indicators": ["Negative social media", "Increased support tickets"], "mitigation": ["Behavioral Framing", "Transparent communication", "Strong rate fences"]},
+        {"risk": "Gray Market Arbitrage", "indicators": ["Unauthorized cross-region sales", "Price variance exploitation"], "mitigation": ["Pan-Local Global Pricing", "Regional product differentiation", "Strict channel control"]},
+        {"risk": "Channel Conflict & Leakage", "indicators": ["Unauthorized discounts", "Forward buying/diverting"], "mitigation": ["Lean Six Sigma Pricing", "Scan-back deals", "Exception tracking codes"]}
       ]
     },
     "continuous_improvement": {
       "review_cadence": {
-        "daily": ["Monitor key metrics dashboards", "Track competitor price changes"],
-        "weekly": ["Review promotional performance", "Analyze price elasticity", "Team standup on pricing issues"],
-        "monthly": ["Pricing committee meeting", "Deep dive on strategy performance", "Competitive analysis update"],
+        "daily": ["Monitor RM dashboards", "Track competitor price changes", "Review exception codes"],
+        "weekly": ["Review promotional performance", "Analyze price elasticity", "Lean Six Sigma team standup"],
+        "monthly": ["Pricing committee meeting", "Deep dive on strategy performance", "Channel compliance audit"],
         "quarterly": ["Strategy review and adjustment", "Market positioning assessment", "Technology stack evaluation"],
         "annually": ["Comprehensive pricing audit", "Strategic planning", "Benchmark against industry", "Team training"]
       },
       "optimization_cycle": [
-        "Collect data and insights",
-        "Analyze performance and opportunities",
-        "Hypothesize improvements",
-        "Design and run experiments",
-        "Measure results",
-        "Implement winners",
-        "Scale successful changes",
+        "Collect data and insights (POS, ERP, CRM, Scanner panels)",
+        "Analyze performance and opportunities (Econometric modeling, Game theory)",
+        "Hypothesize improvements (Behavioral & Nonlinear pricing, B2B contracts)",
+        "Design and run experiments (A/B testing, Pilot regions)",
+        "Measure results (Statistical significance, Margin impact)",
+        "Implement winners (System updates, Training, DMAIC controls)",
+        "Scale successful changes (Global rollout)",
         "Return to step 1"
       ]
     }
