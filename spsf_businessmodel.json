@@ -1,0 +1,1376 @@
+{
+  "metadata": {
+    "title": "Universal Business Model & Pricing Architecture — Complete 54-Model Edition",
+    "subtitle": "Integrating St. Gallen Navigator, Strategyzer BMC, Helmer's 7 Powers, and Oxford Pricing for every individual model.",
+    "copyright": "Copyright 2025-26 Beta ORI Inc. Canada. All Rights Reserved",
+    "Author": "Awase Khirni Syed.",
+    "total_models": 54,
+    "version": "3.0 (Complete Enterprise Strategy Edition)",
+    "last_updated": "2026",
+    "frameworks_integrated": [
+      "St. Gallen Business Model Navigator (Magic Triangle)",
+      "Osterwalder Business Model Canvas (BMC)",
+      "Hamilton Helmer's 7 Powers (Competitive Moats)",
+      "Oxford Pricing Strategy Intelligence System"
+    ]
+  },
+  "business_models": [
+    {
+      "id": 1,
+      "name": "E-commerce",
+      "archetype": "Direct-to-Consumer (DTC) & Digital Pipeline",
+      "st_gallen_magic_triangle": {
+        "who": "End-consumers seeking convenience, broad selection, and competitive pricing without visiting physical retail.",
+        "what": "24/7 access, personalized recommendations, vast SKU selection, fast delivery.",
+        "how": "Digital storefronts, performance marketing, 3PL/fulfillment networks, data analytics, CRM systems.",
+        "why": "Arbitrage between wholesale/manufacturing cost and retail willingness-to-pay; margin capture via operational efficiency."
+      },
+      "bmc_alignment": {
+        "key_resources": ["E-commerce platform", "Customer behavioral data", "Brand IP", "Logistics network"],
+        "key_activities": ["Performance marketing", "Supply chain orchestration", "UX optimization", "Customer service"],
+        "channels": ["Owned website", "Marketplace storefronts", "Social commerce", "Email/SMS"]
+      },
+      "competitive_moats": ["Scale Economies (Marketing)", "Branding", "Process Power (Logistics)"],
+      "pricing_correlations": ["Reference Price Modeling", "Markdown Management", "Price Bundling", "Behavioral Framing", "Dynamic Pricing"],
+      "financial_kpis": ["CAC", "LTV:CAC Ratio", "AOV", "Gross Margin %", "Cart Abandonment Rate", "Return Rate"],
+      "risk_profile": {
+        "primary_risks": ["Rising CAC on Meta/Google", "Supply chain shocks", "Platform dependency", "Margin compression from competition"],
+        "mitigation": ["Omnichannel expansion", "Vertical integration", "Community building", "First-party data strategy"]
+      },
+      "examples": ["Amazon", "Shopify Merchants", "Warby Parker", "Zappos"]
+    },
+    {
+      "id": 2,
+      "name": "Subscriptions",
+      "archetype": "Subscription & Recurring Access",
+      "st_gallen_magic_triangle": {
+        "who": "Consumers and businesses seeking continuous access, predictability, and zero maintenance burden.",
+        "what": "Peace of mind, continuous updates, curation, access-over-ownership, reduced decision fatigue.",
+        "how": "Cloud infrastructure, automated billing engines, content/product pipelines, customer success teams, churn analytics.",
+        "why": "Predictable MRR/ARR, negative working capital cycles, compounding Customer Lifetime Value (LTV)."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Proprietary content/tech", "Billing infrastructure", "Customer success team", "Data pipeline"],
+        "key_activities": ["Churn mitigation", "Feature/content R&D", "Community management", "Onboarding optimization"],
+        "channels": ["Direct website", "App stores", "B2B sales teams", "Partner integrations"]
+      },
+      "competitive_moats": ["Switching Costs", "Scale Economies (R&D)", "Counter-Positioning", "Branding"],
+      "pricing_correlations": ["Nonlinear Pricing (Two-Part Tariffs)", "Unbundling & Versioning", "Advance Selling", "Behavioral Framing"],
+      "financial_kpis": ["MRR/ARR", "Net Revenue Retention (NRR)", "Churn Rate", "Rule of 40", "LTV:CAC", "ARPU"],
+      "risk_profile": {
+        "primary_risks": ["Subscription fatigue", "High initial CAC", "Commoditization", "Content cost inflation"],
+        "mitigation": ["Ecosystem lock-in", "Usage-based upsells", "Annual pre-pay discounts", "Tiered value ladders"]
+      },
+      "examples": ["Netflix", "Spotify", "Dollar Shave Club", "Adobe Creative Cloud"]
+    },
+    {
+      "id": 3,
+      "name": "Freemium",
+      "archetype": "Bait & Hook / Lock-In",
+      "st_gallen_magic_triangle": {
+        "who": "Price-sensitive mass market (free tier) AND high-value power users willing to pay for premium utility.",
+        "what": "Zero barrier to entry for the base; premium features, status, removal of friction, or enhanced capacity for paying users.",
+        "how": "Cross-subsidization, artificial friction via versioning, digital goods replication at zero marginal cost, behavioral UX design.",
+        "why": "Massive top-of-funnel acquisition at near-zero cost, monetized by converting a small percentage of high-LTV users."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Viral distribution loops", "Behavioral usage data", "Micro-transaction rails", "Product analytics"],
+        "key_activities": ["Funnel optimization", "Psychological hook design", "A/B testing conversion triggers", "Community engagement"],
+        "channels": ["Viral sharing", "App stores", "Word-of-mouth", "SEO/Content"]
+      },
+      "competitive_moats": ["Switching Costs", "Network Effects", "Branding", "Scale Economies"],
+      "pricing_correlations": ["Unbundling & Versioning", "Nonlinear Pricing", "Behavioral Framing (Loss Aversion)", "In-App Purchases"],
+      "financial_kpis": ["Free-to-Paid Conversion %", "ARPDAU", "Whale Concentration Risk", "Viral Coefficient", "Time-to-Upgrade"],
+      "risk_profile": {
+        "primary_risks": ["Freeloader server costs eroding margin", "Low conversion rates", "Regulatory scrutiny on dark patterns"],
+        "mitigation": ["Strict cost-capping on free tier", "Ethical UX design", "Clear value gating", "Cosmetic-only monetization"]
+      },
+      "examples": ["Spotify", "Dropbox", "Zoom", "Slack", "Canva"]
+    },
+    {
+      "id": 4,
+      "name": "Pay-per-use",
+      "archetype": "Fractional Ownership & Asset Utilization",
+      "st_gallen_magic_triangle": {
+        "who": "Customers with variable, unpredictable usage needs who want to avoid fixed commitments or CapEx.",
+        "what": "Perfect alignment of cost with value consumed; zero waste; instant scalability.",
+        "how": "IoT metering, automated usage tracking, dynamic provisioning, real-time billing engines, API integrations.",
+        "why": "Usage-based revenue scales linearly with consumption; captures surplus from high-frequency users while attracting low-volume adopters."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Metering infrastructure", "Cloud/physical assets", "Billing engines", "API gateways"],
+        "key_activities": ["Usage tracking", "Capacity provisioning", "Dynamic resource allocation", "Customer usage analytics"],
+        "channels": ["Direct API", "App stores", "B2B procurement", "Aggregators"]
+      },
+      "competitive_moats": ["Scale Economies", "Process Power", "Switching Costs"],
+      "pricing_correlations": ["Nonlinear Pricing (Two-Part Tariffs)", "Services Engineering (Real Options)", "Dynamic Pricing", "Overbooking Strategies"],
+      "financial_kpis": ["Usage Volume", "ARPU", "Active Users", "Cost per Unit Served", "Peak-to-Trough Utilization Ratio"],
+      "risk_profile": {
+        "primary_risks": ["Unpredictable revenue", "Price shock for heavy users", "Requires complex metering tech", "Underutilization in troughs"],
+        "mitigation": ["Usage dashboards", "Tiered caps", "Committed-use discounts", "Reserved capacity pricing"]
+      },
+      "examples": ["Uber", "AWS", "Snowflake", "Twilio", "Electric Utilities"]
+    },
+    {
+      "id": 5,
+      "name": "Pay-what-you-want",
+      "archetype": "Bait & Hook / Lock-In",
+      "st_gallen_magic_triangle": {
+        "who": "Price-sensitive, socially conscious, or experimentally-minded buyers; artists/creators seeking goodwill.",
+        "what": "Psychological empowerment, fairness, social signaling, community goodwill.",
+        "how": "Zero-friction checkout, psychological anchoring, suggested price ranges, community trust mechanisms.",
+        "why": "Voluntary surplus capture, viral PR, market research on true willingness-to-pay, goodwill generation."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Brand trust", "Community goodwill", "Payment flexibility infrastructure"],
+        "key_activities": ["Community engagement", "Viral marketing", "Price anchoring experiments"],
+        "channels": ["Direct website", "Social media", "Email campaigns"]
+      },
+      "competitive_moats": ["Branding", "Counter-Positioning"],
+      "pricing_correlations": ["Auction Pricing", "Behavioral Framing", "Reference Price Modeling"],
+      "financial_kpis": ["Average Paid Price", "Conversion Rate", "Total Revenue", "% Paying Zero", "Viral Share Rate"],
+      "risk_profile": {
+        "primary_risks": ["Revenue uncertainty", "Free-rider dominance", "Brand devaluation if perceived as cheap"],
+        "mitigation": ["Suggested price anchoring", "Limited-time windows", "Bundled value-adds", "Charity tie-ins"]
+      },
+      "examples": ["Humble Bundle", "Radiohead (In Rainbows)", "Panera Cares"]
+    },
+    {
+      "id": 6,
+      "name": "Marketplace",
+      "archetype": "Multi-Sided Platform & Network Orchestrator",
+      "st_gallen_magic_triangle": {
+        "who": "Two or more interdependent groups: Producers/Sellers AND Consumers/Buyers.",
+        "what": "Liquidity, matchmaking, trust/safety, reduction of transaction friction, discovery.",
+        "how": "Platform engineering, API ecosystems, algorithmic matching, community moderation, payment orchestration.",
+        "why": "Take rates (commissions), listing fees, premium placement, data monetization, advertising on platform."
+      },
+      "bmc_alignment": {
+        "key_resources": ["The Network", "Matching algorithms", "Trust/review systems", "Payment rails"],
+        "key_activities": ["Chicken-and-egg acquisition", "Platform governance", "Liquidity management", "Trust/safety enforcement"],
+        "channels": ["App stores", "Viral loops", "SEO/Aggregators", "B2B partnerships"]
+      },
+      "competitive_moats": ["Network Effects (Direct & Cross-Side)", "Scale Economies", "Branding"],
+      "pricing_correlations": ["Network Revenue Management", "Auction Pricing", "Two-Part Tariffs", "Dynamic Pricing"],
+      "financial_kpis": ["GMV", "Take Rate", "Liquidity Ratio", "CAC Payback", "DAU/MAU", "Seller Retention"],
+      "risk_profile": {
+        "primary_risks": ["Disintermediation (platform leakage)", "Regulatory antitrust", "Trust/safety failures", "Chicken-and-egg cold start"],
+        "mitigation": ["Escrow services", "Strict API governance", "Lobbying/compliance", "Subsidized cold-start"]
+      },
+      "examples": ["Etsy", "eBay", "Amazon Marketplace", "Airbnb", "Fiverr"]
+    },
+    {
+      "id": 7,
+      "name": "Crowdfunding",
+      "archetype": "Crowdsourced & Open Innovation",
+      "st_gallen_magic_triangle": {
+        "who": "Early adopters, niche communities, and socially motivated backers.",
+        "what": "Early access to innovative products, sense of purpose, community involvement, exclusive rewards.",
+        "how": "Campaign marketing, escrow payment orchestration, community management, fulfillment logistics.",
+        "why": "Pre-sales capital without equity dilution, risk-free demand validation, community building as marketing."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Campaign IP", "Community trust", "Fulfillment network", "Escrow/payment systems"],
+        "key_activities": ["Campaign storytelling", "Backer communication", "Fulfillment management", "Community engagement"],
+        "channels": ["Crowdfunding platforms", "Social media", "PR/Press", "Email campaigns"]
+      },
+      "competitive_moats": ["Branding", "Network Effects", "Counter-Positioning"],
+      "pricing_correlations": ["Advance Selling", "Behavioral Framing", "Price Bundling"],
+      "financial_kpis": ["Funding Goal %", "Backer Count", "CAC", "Fulfillment Rate", "Backer Satisfaction Score"],
+      "risk_profile": {
+        "primary_risks": ["Fulfillment failure", "IP theft", "All-or-nothing pressure", "Backer backlash on delays"],
+        "mitigation": ["Realistic timelines", "Escrow release milestones", "Transparent communication", "IP protection"]
+      },
+      "examples": ["Kickstarter", "Indiegogo", "GoFundMe", "Patreon"]
+    },
+    {
+      "id": 8,
+      "name": "Affiliate Marketing",
+      "archetype": "Brokerage, Agency & Intermediary",
+      "st_gallen_magic_triangle": {
+        "who": "Publishers, influencers, niche site owners seeking monetization; Advertisers seeking performance-based reach.",
+        "what": "For Affiliates: Revenue without product creation. For Advertisers: Scalable, pay-for-performance acquisition.",
+        "how": "Tracking pixels, payout orchestration, partner portals, attribution models, creative asset distribution.",
+        "why": "Commission on converted sales (CPA/CPS); advertiser pays only for results; affiliate earns passive income."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Affiliate network", "Tracking/attribution tech", "Creative assets", "Brand relationships"],
+        "key_activities": ["Affiliate recruitment", "Creative optimization", "Attribution management", "Payout orchestration"],
+        "channels": ["Affiliate networks", "Direct partnerships", "Content sites", "Social media"]
+      },
+      "competitive_moats": ["Scale Economies", "Process Power", "Branding"],
+      "pricing_correlations": ["Trade & Sales Promotions", "Revenue Sharing Contracts", "Customized Pricing"],
+      "financial_kpis": ["CPA", "Conversion Rate", "Affiliate ROI", "EPC (Earnings Per Click)", "Affiliate Churn Rate"],
+      "risk_profile": {
+        "primary_risks": ["Fraud/cookie stuffing", "Brand control issues", "Margin compression from commissions", "Platform dependency"],
+        "mitigation": ["Strict attribution verification", "Brand guidelines enforcement", "Tiered commission structures", "Diversified affiliate base"]
+      },
+      "examples": ["Amazon Associates", "ShareASale", "CJ Affiliate", "Impact.com"]
+    },
+    {
+      "id": 9,
+      "name": "Dropshipping",
+      "archetype": "Direct-to-Consumer (DTC) & Digital Pipeline",
+      "st_gallen_magic_triangle": {
+        "who": "Niche consumers, impulse buyers, social media-driven shoppers.",
+        "what": "Broad product selection, trending items, competitive pricing, zero inventory risk for the seller.",
+        "how": "API supplier integration, digital marketing funnels, CS outsourcing, automated order routing.",
+        "why": "Margin arbitrage between wholesale supplier cost and retail price without holding inventory CapEx."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Supplier API network", "Marketing funnels", "Brand/storefront", "Customer data"],
+        "key_activities": ["Product research", "Performance marketing", "Supplier vetting", "Customer service"],
+        "channels": ["Social media ads", "Marketplace storefronts", "SEO", "Influencer partnerships"]
+      },
+      "competitive_moats": ["Process Power (Marketing)", "Branding"],
+      "pricing_correlations": ["Markdown Management", "Reference Price Modeling", "Price Bundling", "Behavioral Framing"],
+      "financial_kpis": ["Gross Margin", "AOV", "Supplier Fulfillment Time", "Return Rate", "ROAS"],
+      "risk_profile": {
+        "primary_risks": ["Low margins", "No inventory/quality control", "Shipping delays", "High CAC"],
+        "mitigation": ["Supplier diversification", "Quality sampling", "Branded packaging", "Fast-shipping supplier tiers"]
+      },
+      "examples": ["Oberlo", "AliExpress Dropshippers", "Spocket", "Printful (POD)"]
+    },
+    {
+      "id": 10,
+      "name": "Franchise",
+      "archetype": "Franchise, Licensing & IP Monetization",
+      "st_gallen_magic_triangle": {
+        "who": "Entrepreneurs seeking proven business systems with reduced risk; Brand owners seeking capital-efficient expansion.",
+        "what": "Risk reduction, brand equity, operational blueprints, training, marketing support, proven unit economics.",
+        "how": "Standard operating procedures (SOPs), legal frameworks, brand policing, training academies, supply chain agreements.",
+        "why": "Upfront franchise fees, recurring royalties (% of gross revenue), supply chain markups, real estate lease arbitrage."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Trademarks/Brand", "SOP Playbooks", "Training Infrastructure", "Supply chain agreements"],
+        "key_activities": ["Franchisee recruitment", "Quality assurance audits", "Brand marketing", "Operational support"],
+        "channels": ["Broker networks", "B2B trade shows", "Franchise discovery portals", "Legal channels"]
+      },
+      "competitive_moats": ["Branding", "Scale Economies (Marketing)", "Cornered Resources (Locations)"],
+      "pricing_correlations": ["Revenue Sharing Contracts", "Pan-Local Global Pricing", "Trade & Sales Promotions"],
+      "financial_kpis": ["Royalty Yield", "Franchisee Churn", "Same-Store Sales Growth", "Unit Economics (EBITDA per unit)"],
+      "risk_profile": {
+        "primary_risks": ["Brand dilution by rogue franchisees", "Quality control failures", "Legal complexity", "Channel conflict"],
+        "mitigation": ["Strict audit rights", "Geographic exclusivity", "Co-marketing funds", "Termination clauses"]
+      },
+      "examples": ["McDonald's", "Subway", "7-Eleven", "Marriott (hotel franchise)"]
+    },
+    {
+      "id": 11,
+      "name": "Direct Sales",
+      "archetype": "Brokerage, Agency & Intermediary",
+      "st_gallen_magic_triangle": {
+        "who": "Consumers valuing personal relationships, demonstrations, and trust-based purchasing.",
+        "what": "Personalized selling, product demonstrations, word-of-mouth trust, community experience.",
+        "how": "Independent sales rep networks, motivational events, CRM systems, home party formats, social selling.",
+        "why": "High-margin direct sales without retail overhead; commission-based compensation aligns incentives."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Sales rep network", "Brand reputation", "CRM/training systems", "Product catalog"],
+        "key_activities": ["Rep recruitment", "Training", "Product demonstrations", "Community events"],
+        "channels": ["Peer-to-peer", "Home parties", "Social media", "Direct outreach"]
+      },
+      "competitive_moats": ["Branding", "Process Power", "Cornered Resources (Network)"],
+      "pricing_correlations": ["Customized Pricing", "Trade & Sales Promotions", "Behavioral Framing"],
+      "financial_kpis": ["Sales per Rep", "Rep Retention Rate", "AOV", "Rep Productivity", "Customer Acquisition Cost"],
+      "risk_profile": {
+        "primary_risks": ["High rep turnover", "Reputation risks (MLM overlap)", "Training costs", "Regulatory scrutiny"],
+        "mitigation": ["Tiered compensation", "Clear retail focus", "Compliance training", "Product value emphasis"]
+      },
+      "examples": ["Avon", "Tupperware", "Thermomix", "Mary Kay"]
+    },
+    {
+      "id": 12,
+      "name": "White Labelling",
+      "archetype": "Franchise, Licensing & IP Monetization",
+      "st_gallen_magic_triangle": {
+        "who": "Brands and retailers needing fast time-to-market without R&D investment.",
+        "what": "Focus on marketing/brand, lower R&D costs, instant product catalog, speed to shelf.",
+        "how": "Contract manufacturing, QA/QC, brand packaging, private label logistics, supplier relationship management.",
+        "why": "Margin on branded goods without factory CapEx; brand premium over generic equivalents."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Contract manufacturer relationships", "Brand IP", "QA processes", "Distribution network"],
+        "key_activities": ["Supplier vetting", "Quality control", "Brand packaging", "Retail distribution"],
+        "channels": ["Retail shelves", "E-commerce", "B2B distribution", "Private label programs"]
+      },
+      "competitive_moats": ["Scale Economies", "Branding", "Process Power"],
+      "pricing_correlations": ["Quantity Flexibility Contracts", "Customized Pricing", "Pan-Local Global Pricing"],
+      "financial_kpis": ["Gross Margin", "Supplier Lead Time", "Brand Equity Score", "Market Share vs. Name Brand"],
+      "risk_profile": {
+        "primary_risks": ["Low differentiation", "Supplier dependency", "Margin squeeze", "Quality control failures"],
+        "mitigation": ["Multi-supplier strategy", "Strict QA protocols", "Brand storytelling", "Exclusive formulations"]
+      },
+      "examples": ["Kirkland Signature (Costco)", "Dell (historical)", "Great Value (Walmart)", "Amazon Basics"]
+    },
+    {
+      "id": 13,
+      "name": "Licensing",
+      "archetype": "Franchise, Licensing & IP Monetization",
+      "st_gallen_magic_triangle": {
+        "who": "Businesses needing proven IP, characters, technology, or brand affinity without in-house development.",
+        "what": "Risk reduction, instant brand recognition, market fit, access to beloved characters/patents.",
+        "how": "Legal frameworks, IP policing, royalty auditing, brand guidelines enforcement, licensee support.",
+        "why": "High-margin passive income via royalties; brand expansion into new categories without CapEx."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Trademarks/Patents/Copyrights", "Legal team", "Brand guidelines", "Licensee network"],
+        "key_activities": ["IP protection", "Licensee recruitment", "Royalty auditing", "Brand enforcement"],
+        "channels": ["B2B direct", "Licensing trade shows", "Legal channels", "Industry associations"]
+      },
+      "competitive_moats": ["Cornered Resources (IP)", "Branding", "Scale Economies"],
+      "pricing_correlations": ["Revenue Sharing Contracts", "Buy-Back Contracts", "Customized Pricing"],
+      "financial_kpis": ["Royalty Yield", "Licensee Count", "IP Valuation", "Infringement Rate", "Revenue per Licensee"],
+      "risk_profile": {
+        "primary_risks": ["IP infringement", "Loss of brand control", "Contract enforcement costs", "Licensee underperformance"],
+        "mitigation": ["Strict brand guidelines", "Regular audits", "Minimum guarantee clauses", "Geographic exclusivity"]
+      },
+      "examples": ["Disney", "Arm Holdings", "Dolby", "Qualcomm"]
+    },
+    {
+      "id": 14,
+      "name": "Rental",
+      "archetype": "Fractional Ownership & Asset Utilization",
+      "st_gallen_magic_triangle": {
+        "who": "Customers needing temporary utility without ownership burden, maintenance, or depreciation.",
+        "what": "Flexibility, access to premium assets, elimination of maintenance/depreciation, instant availability.",
+        "how": "Asset procurement, IoT tracking, dynamic scheduling, reverse logistics, maintenance networks.",
+        "why": "Yield management, maximizing asset utilization rates, residual value capture, recurring rental income."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Physical asset fleet", "IoT/Telematics", "Maintenance networks", "Booking platforms"],
+        "key_activities": ["Yield management", "Preventative maintenance", "Dynamic pricing", "Asset lifecycle management"],
+        "channels": ["Direct booking engines", "Aggregators", "B2B procurement", "App stores"]
+      },
+      "competitive_moats": ["Scale Economies (Purchasing)", "Cornered Resources (Locations)", "Process Power"],
+      "pricing_correlations": ["Network Revenue Management", "Overbooking Strategies", "Services Engineering (Real Options)", "Dynamic Pricing"],
+      "financial_kpis": ["Utilization Rate", "RevPAR", "ROIC", "Maintenance Cost/Unit", "Asset Turnover"],
+      "risk_profile": {
+        "primary_risks": ["Asset depreciation", "Idle capacity", "Macro-economic downturns", "Damage/theft"],
+        "mitigation": ["Dynamic yield pricing", "Secondary market liquidation", "B2B long-term contracts", "Insurance programs"]
+      },
+      "examples": ["Hertz", "Airbnb", "United Rentals", "Turo"]
+    },
+    {
+      "id": 15,
+      "name": "Consulting",
+      "archetype": "Brokerage, Agency & Intermediary",
+      "st_gallen_magic_triangle": {
+        "who": "Enterprises and executives needing specialized expertise, objective strategy, or change management.",
+        "what": "Objective external perspective, niche skills, proven frameworks, risk mitigation, prestige signaling.",
+        "how": "Talent acquisition (top graduates), knowledge management systems, client delivery teams, thought leadership.",
+        "why": "High-margin billable hours, premium expertise pricing, retainer stability, performance bonuses."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Human capital (top talent)", "Knowledge base/IP", "Brand reputation", "Client relationships"],
+        "key_activities": ["Client delivery", "Thought leadership", "Talent development", "Business development"],
+        "channels": ["Referrals", "RFPs", "Industry events", "Alumni networks"]
+      },
+      "competitive_moats": ["Cornered Resources (Top Talent)", "Branding", "Process Power"],
+      "pricing_correlations": ["Customized Pricing (Bid-Response)", "Time-Based Billing", "Value-Based Pricing", "Lean Six Sigma Pricing"],
+      "financial_kpis": ["Billable Utilization", "Win Rate", "Revenue per Employee", "Client Retention", "Realization Rate"],
+      "risk_profile": {
+        "primary_risks": ["Talent churn to clients/competitors", "Economic sensitivity", "Project scope creep", "Reputation risk"],
+        "mitigation": ["Equity partnerships", "Retainer models", "Clear SOWs", "Diversified client base"]
+      },
+      "examples": ["McKinsey", "BCG", "Bain", "Deloitte Consulting"]
+    },
+    {
+      "id": 16,
+      "name": "Coaching",
+      "archetype": "Brokerage, Agency & Intermediary",
+      "st_gallen_magic_triangle": {
+        "who": "Individuals and teams seeking personal/professional growth, accountability, and transformation.",
+        "what": "Structured guidance, accountability, personalized feedback, community, proven frameworks.",
+        "how": "Curriculum design, 1-on-1 or group delivery, digital platforms, community management, certification programs.",
+        "why": "High perceived value, scalable group/digital tiers, recurring relationships, premium pricing for transformation."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Coach IP/methodology", "Brand authority", "Digital delivery platform", "Community"],
+        "key_activities": ["Client delivery", "Content creation", "Community management", "Certification/training"],
+        "channels": ["Social media", "Webinars", "Podcasts", "Referrals", "Corporate HR"]
+      },
+      "competitive_moats": ["Branding", "Switching Costs", "Cornered Resources (Methodology IP)"],
+      "pricing_correlations": ["Price Bundling", "Advance Selling", "Value-Based Pricing", "Nonlinear Pricing"],
+      "financial_kpis": ["Client Retention", "NPS", "LTV", "Revenue per Coach", "Group vs. 1:1 Mix"],
+      "risk_profile": {
+        "primary_risks": ["Subjective ROI", "Certification barriers", "Client churn", "Coach dependency"],
+        "mitigation": ["Outcome-based metrics", "Tiered programs", "Digital scalability", "Coach certification pipeline"]
+      },
+      "examples": ["Tony Robbins", "BetterUp", "Noom", "Mastermind Groups"]
+    },
+    {
+      "id": 17,
+      "name": "Outsourcing",
+      "archetype": "Brokerage, Agency & Intermediary",
+      "st_gallen_magic_triangle": {
+        "who": "Companies seeking cost arbitrage, focus on core competencies, or access to specialized skills.",
+        "what": "Lower operational costs, focus on core business, access to global talent, scalability.",
+        "how": "Global talent pools, SLA management, secure IT infrastructure, process standardization, knowledge transfer.",
+        "why": "Labor cost arbitrage, scalable B2B contracts, recurring service revenue, margin on managed services."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Global talent pool", "SLA frameworks", "Secure IT infrastructure", "Process IP"],
+        "key_activities": ["Talent recruitment", "SLA management", "Quality assurance", "Client onboarding"],
+        "channels": ["B2B direct sales", "RFPs", "Industry conferences", "Partner referrals"]
+      },
+      "competitive_moats": ["Scale Economies", "Process Power", "Switching Costs"],
+      "pricing_correlations": ["Capacity Reservation", "Revenue Sharing Contracts", "Customized Pricing", "Lean Six Sigma Pricing"],
+      "financial_kpis": ["Cost Savings Delivered", "SLA Compliance", "Margin per Contract", "Employee Utilization", "Client NPS"],
+      "risk_profile": {
+        "primary_risks": ["Quality control failures", "Communication barriers", "Data security breaches", "Geopolitical risk"],
+        "mitigation": ["Multi-shore strategy", "Strict SLAs", "SOC2/ISO compliance", "Cultural training"]
+      },
+      "examples": ["Accenture", "Infosys", "TCS", "Wipro"]
+    },
+    {
+      "id": 18,
+      "name": "Agency",
+      "archetype": "Brokerage, Agency & Intermediary",
+      "st_gallen_magic_triangle": {
+        "who": "Businesses lacking in-house specialized marketing, creative, or technology capabilities.",
+        "what": "Creative premium, cross-industry learning, execution speed, strategic counsel, talent access.",
+        "how": "Talent aggregation, creative processes, client servicing teams, media buying relationships, project management.",
+        "why": "Retainer stability, project premiums, media margin/commission, performance bonuses."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Creative talent", "Client relationships", "Industry knowledge", "Media buying power"],
+        "key_activities": ["Creative production", "Client servicing", "Media planning/buying", "Strategy development"],
+        "channels": ["Referrals", "RFPs", "Industry awards/events", "LinkedIn/Content"]
+      },
+      "competitive_moats": ["Cornered Resources (Top Talent)", "Branding", "Process Power"],
+      "pricing_correlations": ["Customized Pricing", "Trade & Sales Promotions", "Time-Based Billing", "Value-Based Pricing"],
+      "financial_kpis": ["Agency Gross Income", "Client Retention", "Win Rate", "Revenue per Employee", "Billable Utilization"],
+      "risk_profile": {
+        "primary_risks": ["Client concentration", "Scope creep", "Talent wars", "Commoditization by AI/tools"],
+        "mitigation": ["Retainer models", "Clear SOWs", "Equity partnerships", "Specialization/niche focus"]
+      },
+      "examples": ["Ogilvy", "Wieden+Kennedy", "BBDO", "Dentsu"]
+    },
+    {
+      "id": 19,
+      "name": "Selling Digital Products",
+      "archetype": "Direct-to-Consumer (DTC) & Digital Pipeline",
+      "st_gallen_magic_triangle": {
+        "who": "Consumers and professionals seeking instant knowledge, utility, or entertainment delivery.",
+        "what": "Zero shipping, instant gratification, infinite scalability, global accessibility.",
+        "how": "Content creation, digital storefronts, DRM, automated delivery, email marketing funnels.",
+        "why": "Zero marginal cost per unit, infinite inventory, global reach, high gross margins (80-95%)."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Content IP", "Digital storefront", "Email list", "Brand authority"],
+        "key_activities": ["Content creation", "Funnel optimization", "Community engagement", "Platform management"],
+        "channels": ["Own website", "Marketplaces (Udemy)", "Social media", "Email/SMS"]
+      },
+      "competitive_moats": ["Scale Economies", "Cornered Resources (IP)", "Branding"],
+      "pricing_correlations": ["Price Bundling", "Unbundling & Versioning", "Behavioral Framing", "Advance Selling"],
+      "financial_kpis": ["Conversion Rate", "Refund Rate", "LTV", "Gross Margin %", "Email List Growth Rate"],
+      "risk_profile": {
+        "primary_risks": ["Piracy", "High initial creation cost", "Market saturation", "Platform dependency"],
+        "mitigation": ["DRM", "Community building", "Niche specialization", "Owned audience channels"]
+      },
+      "examples": ["Udemy", "MasterClass", "Skillshare", "Teachable Creators"]
+    },
+    {
+      "id": 20,
+      "name": "Manufacturing",
+      "archetype": "Traditional Manufacturing & Supply Chain Pipeline",
+      "st_gallen_magic_triangle": {
+        "who": "Distributors, retailers, B2B buyers, or end-consumers requiring physical goods.",
+        "what": "Tangible utility, quality consistency, availability, innovation, brand trust.",
+        "how": "Raw material sourcing, factory operations, QA/QC, global logistics, wholesale distribution, R&D.",
+        "why": "Economies of scale, cost-plus pricing, volume rebates, supply chain arbitrage, IP premiums."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Factories", "Patents", "Supply chain networks", "Raw material contracts", "QA systems"],
+        "key_activities": ["Production planning", "QA/QC", "Inventory management", "Logistics", "R&D"],
+        "channels": ["Wholesale", "Distributors", "Retail shelving", "B2B direct", "DTC"]
+      },
+      "competitive_moats": ["Scale Economies (Production)", "Process Power (Lean/Six Sigma)", "Cornered Resources"],
+      "pricing_correlations": ["Lean Six Sigma Pricing Execution", "Quantity Flexibility Contracts", "Capacity Reservation", "Trade & Sales Promotions", "Customized Pricing"],
+      "financial_kpis": ["OEE", "Unit Cost", "Inventory Turnover", "Gross Margin %", "Fill Rate", "Yield Rate"],
+      "risk_profile": {
+        "primary_risks": ["Commodity price shocks", "Geopolitical supply chain breaks", "Inventory obsolescence", "CapEx intensity"],
+        "mitigation": ["Hedging contracts", "Nearshoring", "Lean inventory (JIT)", "Multi-sourcing"]
+      },
+      "examples": ["Ford", "Apple Hardware", "Toyota", "Samsung"]
+    },
+    {
+      "id": 21,
+      "name": "Distribution",
+      "archetype": "Traditional Manufacturing & Supply Chain Pipeline",
+      "st_gallen_magic_triangle": {
+        "who": "Retailers, small businesses, and institutions needing bulk inventory with logistics support.",
+        "what": "Logistics expertise, credit terms, broad assortment, just-in-time delivery, market access.",
+        "how": "Warehousing, fleet management, B2B sales force, inventory financing, category management.",
+        "why": "Volume sales margins, channel control, logistics service fees, inventory financing spreads."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Warehouse network", "Fleet/logistics", "B2B relationships", "Inventory financing"],
+        "key_activities": ["Order fulfillment", "Inventory management", "B2B sales", "Category management"],
+        "channels": ["B2B direct", "Wholesale portals", "Trade shows", "Sales reps"]
+      },
+      "competitive_moats": ["Scale Economies", "Process Power", "Cornered Resources (Geography)"],
+      "pricing_correlations": ["Trade & Sales Promotions", "Quantity Flexibility Contracts", "Buy-Back Contracts", "Revenue Sharing Contracts"],
+      "financial_kpis": ["Fill Rate", "Inventory Days", "GMROI", "Order Accuracy", "Revenue per Route"],
+      "risk_profile": {
+        "primary_risks": ["Thin margins", "Retailer power concentration", "Capital intensity", "Demand volatility"],
+        "mitigation": ["Diversified retailer base", "Inventory financing", "Value-added services", "Long-term contracts"]
+      },
+      "examples": ["Sysco", "Walmart (as distributor)", "McKesson", "Grainger"]
+    },
+    {
+      "id": 22,
+      "name": "Import/Export",
+      "archetype": "Traditional Manufacturing & Supply Chain Pipeline",
+      "st_gallen_magic_triangle": {
+        "who": "Markets with supply/demand imbalances; buyers seeking foreign goods at arbitrage prices.",
+        "what": "Access to foreign goods, geographic arbitrage, product diversification, trade finance.",
+        "how": "Customs brokerage, freight forwarding, FX hedging, trade compliance, international logistics.",
+        "why": "Geographic arbitrage margins, trade finance spreads, currency hedging gains, volume throughput."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Trade relationships", "Customs expertise", "Freight network", "FX hedging capability"],
+        "key_activities": ["Sourcing", "Customs clearance", "Freight management", "FX risk management"],
+        "channels": ["B2B direct", "Trade shows", "Import/export platforms", "Government trade offices"]
+      },
+      "competitive_moats": ["Scale Economies", "Process Power", "Cornered Resources (Trade Routes)"],
+      "pricing_correlations": ["Pan-Local Global Pricing", "Quantity Flexibility Contracts", "Game-Theoretic Pricing"],
+      "financial_kpis": ["Freight Margin", "FX Hedging ROI", "Customs Clearance Time", "Landed Cost Accuracy"],
+      "risk_profile": {
+        "primary_risks": ["Tariffs/trade wars", "Currency volatility", "Geopolitical disruption", "Compliance penalties"],
+        "mitigation": ["Multi-country sourcing", "Currency hedging", "Trade compliance automation", "Diversified routes"]
+      },
+      "examples": ["Maersk", "Li & Fung", "Cargill", "Trafigura"]
+    },
+    {
+      "id": 23,
+      "name": "Joint Venture",
+      "archetype": "Strategic Alliance & Ecosystem Orchestration",
+      "st_gallen_magic_triangle": {
+        "who": "Two or more companies seeking shared risk, market access, or complementary capabilities.",
+        "what": "Synergies, shared CapEx, local market navigation, combined IP, risk mitigation.",
+        "how": "Legal structuring, joint governance, shared operations, combined R&D, co-marketing.",
+        "why": "Expanded TAM, shared risk, accelerated innovation, access to restricted markets."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Combined IP", "Joint governance structure", "Shared operations", "Combined networks"],
+        "key_activities": ["Joint R&D", "Co-marketing", "Shared operations", "Governance management"],
+        "channels": ["Combined distribution", "Joint sales teams", "Shared digital channels"]
+      },
+      "competitive_moats": ["Network Effects", "Scale Economies", "Cornered Resources"],
+      "pricing_correlations": ["Game-Theoretic Pricing", "Revenue Sharing Contracts", "Customized Pricing"],
+      "financial_kpis": ["Synergy Realization", "Time-to-Market", "JV ROI", "Combined Market Share"],
+      "risk_profile": {
+        "primary_risks": ["Culture clashes", "IP disputes", "Profit sharing conflicts", "Strategic misalignment"],
+        "mitigation": ["Clear governance charters", "IP assignment agreements", "Exit clauses", "Aligned incentive structures"]
+      },
+      "examples": ["Sony Ericsson", "Hulu (initial)", "Hulu", "Star Alliance"]
+    },
+    {
+      "id": 24,
+      "name": "Co-creation",
+      "archetype": "Crowdsourced & Open Innovation",
+      "st_gallen_magic_triangle": {
+        "who": "Passionate users, niche communities, and brand advocates seeking influence and recognition.",
+        "what": "Purpose, creative influence, early access, community belonging, recognition.",
+        "how": "Gamified platforms, API integrations, community moderation, voting mechanisms, IP assignment frameworks.",
+        "why": "Zero marginal R&D cost, pre-validated market demand, community-driven marketing, reduced innovation risk."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Community platform", "Brand loyalty", "IP assignment framework", "Moderation systems"],
+        "key_activities": ["Community management", "Idea curation", "Voting/gamification", "IP management"],
+        "channels": ["Brand community", "Social media", "Dedicated platforms", "Events"]
+      },
+      "competitive_moats": ["Network Effects", "Branding", "Switching Costs"],
+      "pricing_correlations": ["Advance Selling", "Behavioral Framing", "Revenue Sharing Contracts"],
+      "financial_kpis": ["Idea Implementation Rate", "Community Engagement", "Pre-order Volume", "Contributor Retention"],
+      "risk_profile": {
+        "primary_risks": ["IP leakage", "Slow process", "Managing expectations", "Community toxicity"],
+        "mitigation": ["Clear IP terms", "Transparent timelines", "Strict moderation", "Escrow funds"]
+      },
+      "examples": ["LEGO Ideas", "My Starbucks Idea", "Threadless", "Local Motors"]
+    },
+    {
+      "id": 25,
+      "name": "PaaS (Platform-as-a-Service)",
+      "archetype": "Subscription & Recurring Access",
+      "st_gallen_magic_triangle": {
+        "who": "Developers and engineering teams needing infrastructure abstraction to focus on code.",
+        "what": "Zero server management, instant scalability, developer experience, ecosystem integrations.",
+        "how": "Cloud orchestration, API maintenance, developer support, documentation, marketplace add-ons.",
+        "why": "High switching costs, ecosystem lock-in, usage-based revenue, developer community network effects."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Platform infrastructure", "Developer community", "API ecosystem", "Documentation"],
+        "key_activities": ["Platform R&D", "Developer support", "Ecosystem management", "Security/compliance"],
+        "channels": ["Developer conferences", "GitHub/npm", "Direct sales", "Partner integrations"]
+      },
+      "competitive_moats": ["Switching Costs", "Scale Economies", "Network Effects"],
+      "pricing_correlations": ["Nonlinear Pricing", "Price Bundling", "Pay-per-use", "Capacity Reservation"],
+      "financial_kpis": ["Developer Adoption", "Compute Hours", "Churn", "ARPU", "API Call Volume"],
+      "risk_profile": {
+        "primary_risks": ["High R&D costs", "Developer acquisition costs", "Commoditization by IaaS providers", "Security breaches"],
+        "mitigation": ["Ecosystem lock-in", "Superior DX", "Multi-cloud strategy", "SOC2/ISO compliance"]
+      },
+      "examples": ["Heroku", "Google App Engine", "Firebase", "Vercel"]
+    },
+    {
+      "id": 26,
+      "name": "SaaS (Software-as-a-Service)",
+      "archetype": "Subscription & Recurring Access",
+      "st_gallen_magic_triangle": {
+        "who": "Businesses and professionals needing continuous software access without maintenance burden.",
+        "what": "Continuous updates, cloud access, collaboration, zero maintenance, integrations.",
+        "how": "Cloud infrastructure, automated billing, customer success teams, feature R&D, onboarding.",
+        "why": "Predictable MRR/ARR, negative working capital, compounding LTV, high gross margins (70-90%)."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Proprietary software", "Customer data", "CS team", "Integration ecosystem"],
+        "key_activities": ["Feature R&D", "Churn mitigation", "Onboarding", "Customer success"],
+        "channels": ["Direct sales", "Self-serve", "App marketplaces", "Partner channels"]
+      },
+      "competitive_moats": ["Switching Costs", "Scale Economies (R&D)", "Network Effects", "Counter-Positioning"],
+      "pricing_correlations": ["Nonlinear Pricing", "Unbundling & Versioning", "Advance Selling", "Price Bundling"],
+      "financial_kpis": ["MRR/ARR", "NRR", "Churn Rate", "Rule of 40", "LTV:CAC", "ARPU"],
+      "risk_profile": {
+        "primary_risks": ["Subscription fatigue", "High CAC", "Commoditization", "Feature bloat"],
+        "mitigation": ["Ecosystem lock-in", "Usage-based upsells", "Annual pre-pay", "Product-led growth"]
+      },
+      "examples": ["Salesforce", "Slack", "Notion", "Figma"]
+    },
+    {
+      "id": 27,
+      "name": "IaaS (Infrastructure-as-a-Service)",
+      "archetype": "Subscription & Recurring Access",
+      "st_gallen_magic_triangle": {
+        "who": "Enterprises and developers needing raw compute, storage, and networking on demand.",
+        "what": "Infinite scalability, CapEx-to-OpEx shift, global availability, compliance certifications.",
+        "how": "Data centers, network backbones, virtualization, API management, compliance automation.",
+        "why": "Massive scale economies, utility pricing, high barrier to entry, recurring consumption revenue."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Data center fleet", "Network backbone", "Virtualization tech", "Compliance certs"],
+        "key_activities": ["Infrastructure R&D", "Capacity planning", "Security/compliance", "Developer tools"],
+        "channels": ["Direct enterprise sales", "Developer self-serve", "Partner channels", "Cloud marketplaces"]
+      },
+      "competitive_moats": ["Scale Economies", "Cornered Resources (Infrastructure)", "Switching Costs"],
+      "pricing_correlations": ["Nonlinear Pricing", "Services Engineering", "Capacity Reservation", "Pay-per-use"],
+      "financial_kpis": ["Compute Utilization", "ARPU", "Data Center Efficiency (PUE)", "Revenue per Rack"],
+      "risk_profile": {
+        "primary_risks": ["Extreme CapEx", "Price war vulnerability", "Complex billing", "Regulatory scrutiny"],
+        "mitigation": ["Reserved capacity pricing", "Multi-year contracts", "Ecosystem lock-in", "Compliance automation"]
+      },
+      "examples": ["AWS", "Azure", "Google Cloud", "Oracle Cloud"]
+    },
+    {
+      "id": 28,
+      "name": "Price Discrimination (Yield Management)",
+      "archetype": "Pricing & Market Mechanism",
+      "st_gallen_magic_triangle": {
+        "who": "Heterogeneous buyer segments with different willingness-to-pay, urgency, or price sensitivity.",
+        "what": "Personalized pricing, segment-specific value capture, market expansion to price-sensitive buyers.",
+        "how": "Segment identification, rate fences, dynamic rules, data analytics, behavioral targeting.",
+        "why": "Yield optimization, capturing diverse willingness-to-pay, maximizing revenue per available unit."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Customer data", "Pricing analytics", "Segmentation models", "Rate fence logic"],
+        "key_activities": ["Segment analysis", "Rate fence design", "Dynamic rule management", "A/B testing"],
+        "channels": ["All channels", "Direct booking", "OTA/Aggregators", "B2B sales"]
+      },
+      "competitive_moats": ["Scale Economies (Data)", "Process Power"],
+      "pricing_correlations": ["Customized Pricing", "Network Revenue Management", "Dynamic Pricing", "Behavioral Framing"],
+      "financial_kpis": ["Consumer Surplus Captured", "Segment Margin", "Arbitrage Rate", "Yield per Unit"],
+      "risk_profile": {
+        "primary_risks": ["Customer backlash", "Arbitrage risk", "Regulatory scrutiny", "Complex implementation"],
+        "mitigation": ["Transparent communication", "Strong rate fences", "Legal compliance", "Gradual rollout"]
+      },
+      "examples": ["Airlines", "Student Discounts", "Senior Pricing", "Regional App Store Pricing"]
+    },
+    {
+      "id": 29,
+      "name": "Sharing Economy",
+      "archetype": "Multi-Sided Platform & Network Orchestrator",
+      "st_gallen_magic_triangle": {
+        "who": "Asset owners seeking monetization of idle capacity AND users seeking access without ownership.",
+        "what": "Monetize idle assets, access without ownership, community trust, sustainability.",
+        "how": "Trust/safety systems, matching algorithms, payment orchestration, review systems, insurance.",
+        "why": "Asset-light scaling, network effects, take rates on transactions, data monetization."
+      },
+      "bmc_alignment": {
+        "key_resources": ["The Network", "Trust/review systems", "Matching algorithms", "Insurance/guarantee"],
+        "key_activities": ["Supply acquisition", "Demand generation", "Trust/safety enforcement", "Dispute resolution"],
+        "channels": ["App stores", "Social media", "SEO", "Referral programs"]
+      },
+      "competitive_moats": ["Network Effects", "Scale Economies", "Branding"],
+      "pricing_correlations": ["Network Revenue Management", "Overbooking Strategies", "Dynamic Pricing", "Two-Part Tariffs"],
+      "financial_kpis": ["Utilization Rate", "Take Rate", "Active Suppliers", "Trust Score", "GMV"],
+      "risk_profile": {
+        "primary_risks": ["Regulatory battles", "Trust/safety failures", "Labor disputes", "Platform leakage"],
+        "mitigation": ["Lobbying/compliance", "Insurance programs", "Background checks", "Escrow services"]
+      },
+      "examples": ["Airbnb", "Uber", "Turo", "Getaround"]
+    },
+    {
+      "id": 30,
+      "name": "FBA (Fulfillment by Amazon)",
+      "archetype": "Direct-to-Consumer (DTC) & Digital Pipeline",
+      "st_gallen_magic_triangle": {
+        "who": "E-commerce sellers needing Prime eligibility, outsourced logistics, and Amazon's customer trust.",
+        "what": "Prime badge, 2-day shipping, outsourced CS/returns, Amazon's customer trust.",
+        "how": "Amazon warehouse integration, inventory forecasting, FBA fee optimization, Buy Box management.",
+        "why": "High volume throughput, platform dependency margin, Prime conversion lift, logistics outsourcing."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Amazon seller account", "Inventory", "Product listings", "FBA logistics"],
+        "key_activities": ["Inventory forecasting", "FBA fee optimization", "Buy Box management", "Product research"],
+        "channels": ["Amazon marketplace", "Amazon PPC", "External traffic to Amazon"]
+      },
+      "competitive_moats": ["Scale Economies (Amazon)", "Process Power"],
+      "pricing_correlations": ["Trade & Sales Promotions", "Markdown Management", "Reference Price Modeling"],
+      "financial_kpis": ["FBA Fee Ratio", "Inventory Turnover", "Buy Box Win Rate", "ACOS", "Net Margin per Unit"],
+      "risk_profile": {
+        "primary_risks": ["High FBA fees", "Inventory commingling risks", "Platform dependency", "Amazon private label competition"],
+        "mitigation": ["Multi-channel selling", "Inventory diversification", "Brand building", "External traffic strategy"]
+      },
+      "examples": ["Amazon 3P Sellers", "Anker", "Native Union"]
+    },
+    {
+      "id": 31,
+      "name": "On-demand Services",
+      "archetype": "Multi-Sided Platform & Network Orchestrator",
+      "st_gallen_magic_triangle": {
+        "who": "Consumers needing immediate fulfillment of tasks, deliveries, or services.",
+        "what": "Convenience premium, instant gratification, flexible labor access.",
+        "how": "Algorithmic dispatch, gig-worker network, payment orchestration, real-time tracking.",
+        "why": "High frequency, convenience markup, flexible labor model, network effects."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Gig-worker network", "Dispatch algorithms", "Payment rails", "Brand trust"],
+        "key_activities": ["Worker acquisition", "Demand generation", "Algorithm optimization", "Quality control"],
+        "channels": ["App stores", "Social media", "Referral programs", "B2B partnerships"]
+      },
+      "competitive_moats": ["Network Effects", "Scale Economies", "Branding"],
+      "pricing_correlations": ["Network Revenue Management", "Services Engineering", "Dynamic Pricing"],
+      "financial_kpis": ["Order Frequency", "Courier Utilization", "Contribution Margin", "Delivery Time", "NPS"],
+      "risk_profile": {
+        "primary_risks": ["Unit economics challenges", "Labor regulation", "High CAC", "Worker churn"],
+        "mitigation": ["Route optimization", "Regulatory compliance", "Subscription tiers", "Worker incentives"]
+      },
+      "examples": ["TaskRabbit", "DoorDash", "Instacart", "Postmates"]
+    },
+    {
+      "id": 32,
+      "name": "In-app Purchases",
+      "archetype": "Bait & Hook / Lock-In",
+      "st_gallen_magic_triangle": {
+        "who": "Mobile gamers and app users seeking progression, status, or friction removal.",
+        "what": "Progression acceleration, cosmetic status, friction removal, exclusive content.",
+        "how": "Micro-transaction rails, behavioral UX design, psychological hooks, gamification.",
+        "why": "Micro-transaction scale, high LTV from 'whales', frictionless impulse purchases."
+      },
+      "bmc_alignment": {
+        "key_resources": ["App user base", "Behavioral data", "Micro-transaction rails", "Game/app design IP"],
+        "key_activities": ["UX optimization", "A/B testing", "Whale nurturing", "Content updates"],
+        "channels": ["App stores", "Social media", "Influencer marketing", "Cross-promotion"]
+      },
+      "competitive_moats": ["Switching Costs", "Network Effects", "Branding"],
+      "pricing_correlations": ["Unbundling & Versioning", "Nonlinear Pricing", "Behavioral Framing"],
+      "financial_kpis": ["ARPDAU", "Payer Conversion", "Whale Retention", "D1/D7/D30 Retention"],
+      "risk_profile": {
+        "primary_risks": ["Regulatory scrutiny (loot boxes)", "App store fees (30%)", "Churn", "Ethical concerns"],
+        "mitigation": ["Ethical monetization", "Cosmetic-only purchases", "Diversified payment rails", "Age verification"]
+      },
+      "examples": ["Candy Crush", "Fortnite", "Genshin Impact", "Clash of Clans"]
+    },
+    {
+      "id": 33,
+      "name": "Advertising",
+      "archetype": "Attention & Audience Monetization",
+      "st_gallen_magic_triangle": {
+        "who": "Advertisers (B2B) seeking targeted reach; Consumers (B2C) seeking free content/entertainment.",
+        "what": "For Advertisers: Targeted reach, conversion, brand affinity. For Users: Free content.",
+        "how": "Algorithmic feeds, content aggregation, data profiling, ad-tech infrastructure, real-time bidding.",
+        "why": "Arbitrage between cost of content acquisition and CPM/CPC ad revenue; data monetization."
+      },
+      "bmc_alignment": {
+        "key_resources": ["User attention", "Behavioral data", "Ad-tech algorithms", "Content library"],
+        "key_activities": ["Content curation/creation", "Algorithm tuning", "Ad inventory packaging", "Data profiling"],
+        "channels": ["Social feeds", "Search engines", "Podcasts/Video", "Display networks"]
+      },
+      "competitive_moats": ["Network Effects", "Scale Economies (Data)", "Cornered Resources (Exclusive IP)"],
+      "pricing_correlations": ["Auction Pricing (Programmatic)", "Dynamic Pricing", "Network Revenue Management", "Pan-Local Global Pricing"],
+      "financial_kpis": ["CPM/CPC", "Time-in-App", "Ad Load %", "Data Yield per User", "Fill Rate"],
+      "risk_profile": {
+        "primary_risks": ["Ad-blockers", "Privacy regulation (GDPR/ATT)", "Brand safety scandals", "Attention competition"],
+        "mitigation": ["First-party data pivots", "Contextual targeting", "Premium ad-free tiers", "Brand safety tools"]
+      },
+      "examples": ["Google Ads", "Meta Ads", "TikTok Ads", "Spotify Ad-Supported"]
+    },
+    {
+      "id": 34,
+      "name": "Loyalty Program",
+      "archetype": "Bait & Hook / Lock-In",
+      "st_gallen_magic_triangle": {
+        "who": "Frequent purchasers, brand loyalists, and status-seeking consumers.",
+        "what": "Rewards, status recognition, exclusive access, personalized offers, switching cost creation.",
+        "how": "Point ledger systems, tier management, partner integrations, data analytics, personalized offers.",
+        "why": "Increased purchase frequency, data collection, LTV lift, reduced churn, partner revenue."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Customer data", "Point ledger", "Partner network", "Brand equity"],
+        "key_activities": ["Tier management", "Personalized offer design", "Partner integration", "Data analytics"],
+        "channels": ["In-app", "Email/SMS", "In-store", "Partner channels"]
+      },
+      "competitive_moats": ["Switching Costs", "Branding", "Scale Economies (Data)"],
+      "pricing_correlations": ["Behavioral Framing", "Reference Price Modeling", "Price Bundling"],
+      "financial_kpis": ["Redemption Rate", "Member Spend Lift", "Breakage", "Enrollment Rate", "Member Retention"],
+      "risk_profile": {
+        "primary_risks": ["Liability accounting", "Reward inflation", "Complexity", "Low engagement"],
+        "mitigation": ["Actuarial modeling", "Tiered value", "Gamification", "Partner co-funding"]
+      },
+      "examples": ["Starbucks Rewards", "Airline Miles", "Sephora Beauty Insider", "Amazon Prime"]
+    },
+    {
+      "id": 35,
+      "name": "Bundling",
+      "archetype": "Product Strategy / Cross-Sell",
+      "st_gallen_magic_triangle": {
+        "who": "Convenience seekers, bargain hunters, and customers with negatively correlated valuations.",
+        "what": "Perceived savings, reduced transaction friction, curated experience, one-stop solution.",
+        "how": "Package design, cross-sell logic, inventory pairing, pricing architecture, UX simplification.",
+        "why": "Increases AOV, moves slow inventory, reduces price sensitivity, captures consumer surplus."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Product catalog", "Pricing analytics", "Customer segmentation data"],
+        "key_activities": ["Bundle design", "A/B testing", "Cross-sell optimization", "Inventory management"],
+        "channels": ["All sales channels", "E-commerce", "B2B sales", "In-store"]
+      },
+      "competitive_moats": ["Scale Economies", "Branding", "Switching Costs"],
+      "pricing_correlations": ["Price Bundling", "Unbundling & Versioning", "Behavioral Framing"],
+      "financial_kpis": ["Attach Rate", "Bundle Margin", "AOV Lift", "Cannibalization Rate"],
+      "risk_profile": {
+        "primary_risks": ["Cannibalization of high-margin items", "Margin dilution", "Customer frustration", "Antitrust risks"],
+        "mitigation": ["Mixed bundling", "A la carte escape hatch", "Legal compliance", "A/B testing"]
+      },
+      "examples": ["McDonald's Meals", "Microsoft Office", "Amazon Prime", "Cable TV Packages"]
+    },
+    {
+      "id": 36,
+      "name": "Crowdsourcing",
+      "archetype": "Crowdsourced & Open Innovation",
+      "st_gallen_magic_triangle": {
+        "who": "Hobbyists, gig-workers, communities, and domain experts seeking purpose or micro-earnings.",
+        "what": "Purpose, micro-earnings, gamification, community, skill development.",
+        "how": "Platform governance, API integrations, QA systems, community moderation, incentive design.",
+        "why": "Low cost labor/ideas, massive scale, community engagement, zero fixed payroll."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Community platform", "Moderation AI", "Incentive system", "QA frameworks"],
+        "key_activities": ["Community management", "Platform governance", "Incentive design", "Quality control"],
+        "channels": ["Niche forums", "Social media", "PR/Viral stunts", "Developer communities"]
+      },
+      "competitive_moats": ["Network Effects", "Scale Economies (Data)", "Counter-Positioning"],
+      "pricing_correlations": ["Buy-Back Contracts", "Advance Selling", "Auction Pricing"],
+      "financial_kpis": ["Contributor Retention", "Content Velocity", "Accuracy Rate", "Community Engagement Rate"],
+      "risk_profile": {
+        "primary_risks": ["Quality control", "Moderation costs", "IP ownership", "Community toxicity"],
+        "mitigation": ["Strict moderation", "Clear IP terms", "Tiered contributor levels", "AI-assisted QA"]
+      },
+      "examples": ["Wikipedia", "Waze", "Stack Overflow", "Kaggle"]
+    },
+    {
+      "id": 37,
+      "name": "Reverse Auction",
+      "archetype": "Pricing & Market Mechanism",
+      "st_gallen_magic_triangle": {
+        "who": "Buyers seeking cost reduction; Suppliers competing for contracts.",
+        "what": "Market clearing, transparency, cost reduction, competitive tension.",
+        "how": "Bidding engines, supplier verification, escrow, real-time bid tracking, contract automation.",
+        "why": "Cost reduction via competitive tension, market clearing, transparency, procurement efficiency."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Bidding platform", "Supplier network", "Verification systems", "Contract automation"],
+        "key_activities": ["Supplier onboarding", "Bid management", "Contract enforcement", "Dispute resolution"],
+        "channels": ["B2B procurement portals", "Government portals", "Direct outreach"]
+      },
+      "competitive_moats": ["Scale Economies", "Process Power", "Network Effects"],
+      "pricing_correlations": ["Auction Pricing", "Customized Pricing", "Lean Six Sigma Pricing"],
+      "financial_kpis": ["Cost Savings %", "Supplier Participation", "Fulfillment Rate", "Bid Velocity"],
+      "risk_profile": {
+        "primary_risks": ["Race to the bottom", "Quality degradation", "Supplier relationship damage", "Collusion"],
+        "mitigation": ["Quality gates", "Minimum price floors", "Supplier scoring", "Anti-collusion monitoring"]
+      },
+      "examples": ["Priceline (Name Your Price)", "Government Procurement", "Upwork Bidding"]
+    },
+    {
+      "id": 38,
+      "name": "User-Generated Content (UGC)",
+      "archetype": "Multi-Sided Platform & Network Orchestrator",
+      "st_gallen_magic_triangle": {
+        "who": "Creators seeking audience/monetization AND consumers seeking entertainment/information.",
+        "what": "Infinite content supply, high engagement, community, authentic voices.",
+        "how": "Moderation AI, recommendation algorithms, creator funds, content delivery networks.",
+        "why": "Infinite supply at zero marginal cost, network effects, ad monetization, data monetization."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Creator community", "Recommendation algorithms", "Moderation AI", "CDN infrastructure"],
+        "key_activities": ["Creator acquisition", "Algorithm tuning", "Content moderation", "Ad sales"],
+        "channels": ["App stores", "Social media", "SEO", "Creator referrals"]
+      },
+      "competitive_moats": ["Network Effects", "Scale Economies (Data)", "Branding"],
+      "pricing_correlations": ["Network Revenue Management", "Auction Pricing", "Dynamic Pricing"],
+      "financial_kpis": ["DAU", "Time Spent", "Creator Monetization", "Content Velocity", "Engagement Rate"],
+      "risk_profile": {
+        "primary_risks": ["Moderation costs", "Copyright strikes", "Creator payouts pressure", "Algorithm bias"],
+        "mitigation": ["AI-assisted moderation", "Content ID systems", "Creator fund transparency", "Ethical AI audits"]
+      },
+      "examples": ["YouTube", "TikTok", "Instagram", "Reddit"]
+    },
+    {
+      "id": 39,
+      "name": "Personalization (Mass Customization)",
+      "archetype": "Bait & Hook / Lock-In",
+      "st_gallen_magic_triangle": {
+        "who": "Consumers seeking unique experiences, status, and products tailored to their preferences.",
+        "what": "Premium utility, status, reduced returns, emotional connection, one-of-a-kind products.",
+        "how": "Data pipelines, flexible manufacturing, recommendation AI, customization interfaces.",
+        "why": "Premium pricing, high loyalty, reduced returns, data collection, emotional switching costs."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Customer data", "Flexible manufacturing", "Recommendation AI", "Customization UX"],
+        "key_activities": ["Data collection", "Manufacturing flexibility", "Recommendation tuning", "UX design"],
+        "channels": ["Direct website", "App", "In-store configurators", "B2B sales"]
+      },
+      "competitive_moats": ["Process Power", "Switching Costs", "Scale Economies (Data)"],
+      "pricing_correlations": ["Customized Pricing", "Behavioral Framing", "Value-Based Pricing"],
+      "financial_kpis": ["Personalization Lift", "Conversion Rate", "Data Accuracy", "Return Rate Reduction"],
+      "risk_profile": {
+        "primary_risks": ["Data privacy risks", "Supply chain complexity", "High tech costs", "Scalability limits"],
+        "mitigation": ["Privacy-by-design", "Modular manufacturing", "Phased rollout", "AI-driven recommendations"]
+      },
+      "examples": ["Nike By You", "Spotify Discover Weekly", "Stitch Fix", "Netflix Recommendations"]
+    },
+    {
+      "id": 40,
+      "name": "Multi-Level Marketing (MLM)",
+      "archetype": "Multi-Level & Network Marketing",
+      "st_gallen_magic_triangle": {
+        "who": "Individuals seeking entrepreneurship/side-income; End-consumers of niche products.",
+        "what": "Business-in-a-box, community, personal development, specialized products.",
+        "how": "Recruitment funnels, motivational events, decentralized P2P selling, compensation plans.",
+        "why": "Zero fixed payroll, viral distribution, high-margin proprietary consumables."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Compensation plan", "Motivational IP", "Proprietary consumables", "Distributor network"],
+        "key_activities": ["Recruitment", "Training", "Event production", "Product development"],
+        "channels": ["Peer-to-peer", "Home parties", "Social media funnels", "Events"]
+      },
+      "competitive_moats": ["Branding (Cult-like)", "Process Power (Compensation Math)"],
+      "pricing_correlations": ["Trade & Sales Promotions", "Customized Pricing", "Behavioral Framing"],
+      "financial_kpis": ["Active Distributor %", "Retail vs. Recruiting Revenue Ratio", "Churn Rate", "Product Sell-through"],
+      "risk_profile": {
+        "primary_risks": ["Pyramid scheme regulatory action", "Reputational damage", "High distributor churn", "Legal liability"],
+        "mitigation": ["Strict retail sales requirements", "Compliance audits", "Focus on product value", "Transparent compensation"]
+      },
+      "examples": ["Amway", "Forever Living", "Herbalife", "doTERRA"]
+    },
+    {
+      "id": 41,
+      "name": "Network Effect",
+      "archetype": "Multi-Sided Platform & Network Orchestrator",
+      "st_gallen_magic_triangle": {
+        "who": "Interdependent user groups where each additional user increases value for all.",
+        "what": "Increasing returns to scale, liquidity, community, winner-take-all dynamics.",
+        "how": "Platform engineering, chicken-and-egg acquisition, viral loops, ecosystem governance.",
+        "why": "Winner-take-all dynamics, high barriers to entry, organic growth, data network effects."
+      },
+      "bmc_alignment": {
+        "key_resources": ["The Network", "Matching algorithms", "Data flywheel", "Community governance"],
+        "key_activities": ["User acquisition", "Engagement optimization", "Ecosystem governance", "Viral loop design"],
+        "channels": ["Viral loops", "App stores", "SEO", "Partnerships"]
+      },
+      "competitive_moats": ["Network Effects", "Scale Economies", "Switching Costs"],
+      "pricing_correlations": ["Game-Theoretic Pricing", "Advance Selling", "Two-Part Tariffs"],
+      "financial_kpis": ["Viral Coefficient", "Network Density", "Engagement Multiplier", "User Growth Rate"],
+      "risk_profile": {
+        "primary_risks": ["Cold start problem", "Monopoly scrutiny", "Platform decay risk", "Negative network effects"],
+        "mitigation": ["Subsidized cold-start", "Regulatory compliance", "Continuous innovation", "Community governance"]
+      },
+      "examples": ["Facebook", "WhatsApp", "Visa/Mastercard", "Telephone Network"]
+    },
+    {
+      "id": 42,
+      "name": "Sponsorship",
+      "archetype": "Attention & Audience Monetization",
+      "st_gallen_magic_triangle": {
+        "who": "Brands needing affinity and reach; Events/organizations needing funding.",
+        "what": "Brand equity lift, targeted reach, halo effect, emotional connection.",
+        "how": "Event/creator negotiation, activation campaigns, measurement, content integration.",
+        "why": "Brand affinity, targeted reach, halo effect, emotional connection, media value."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Brand equity", "Event/creator relationships", "Activation team", "Measurement tools"],
+        "key_activities": ["Sponsorship negotiation", "Activation campaigns", "Content integration", "ROI measurement"],
+        "channels": ["Events", "Social media", "Broadcast", "In-person activation"]
+      },
+      "competitive_moats": ["Branding", "Cornered Resources (Exclusive Events)"],
+      "pricing_correlations": ["Pan-Local Global Pricing", "Behavioral Framing", "Value-Based Pricing"],
+      "financial_kpis": ["Brand Awareness Lift", "Media Value Equivalent", "Sentiment Shift", "Engagement Rate"],
+      "risk_profile": {
+        "primary_risks": ["Hard to measure ROI", "Scandal risks", "High upfront costs", "Brand misalignment"],
+        "mitigation": ["Performance clauses", "Brand safety audits", "Phased investment", "Multi-touch attribution"]
+      },
+      "examples": ["Nike (Olympics)", "Red Bull (Stratos)", "Coca-Cola (FIFA)", "Samsung (Olympics)"]
+    },
+    {
+      "id": 43,
+      "name": "Dynamic Pricing",
+      "archetype": "Pricing & Market Mechanism",
+      "st_gallen_magic_triangle": {
+        "who": "Price-sensitive and time-sensitive buyers; businesses with perishable or variable inventory.",
+        "what": "Real-time price optimization, supply/demand balancing, yield maximization.",
+        "how": "Real-time data pipelines, ML pricing models, rule engines, competitor monitoring.",
+        "why": "Maximizes yield, balances supply/demand, profit optimization, captures willingness-to-pay."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Real-time data", "ML pricing models", "Competitor monitoring", "Rule engines"],
+        "key_activities": ["Model training", "Rule management", "Competitor tracking", "A/B testing"],
+        "channels": ["All channels", "Direct booking", "OTA/Aggregators", "B2B sales"]
+      },
+      "competitive_moats": ["Scale Economies (Data)", "Process Power"],
+      "pricing_correlations": ["Network Revenue Management", "Overbooking Strategies", "Auction Pricing"],
+      "financial_kpis": ["Yield per Unit", "Demand Elasticity", "Conversion Drop-off", "Price Realization"],
+      "risk_profile": {
+        "primary_risks": ["Customer anger", "Algorithmic errors", "Competitor retaliation", "Regulatory scrutiny"],
+        "mitigation": ["Transparent communication", "Model guardrails", "Competitor monitoring", "Legal compliance"]
+      },
+      "examples": ["Uber Surge", "Airlines", "Amazon Dynamic Pricing", "Hotels"]
+    },
+    {
+      "id": 44,
+      "name": "Value-Based Pricing",
+      "archetype": "Premium Value Capture",
+      "st_gallen_magic_triangle": {
+        "who": "Enterprise B2B buyers, luxury consumers, and customers with high willingness-to-pay.",
+        "what": "Maximum margin capture, brand prestige, decoupled from costs, perceived value alignment.",
+        "how": "Deep customer insight, value metric alignment, willingness-to-pay research, premium positioning.",
+        "why": "Maximum margin, brand prestige, decoupled from costs, captures true perceived value."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Customer insight data", "Brand equity", "Value metric framework", "Sales enablement"],
+        "key_activities": ["WTP research", "Value metric design", "Sales training", "Premium positioning"],
+        "channels": ["Direct sales", "Luxury retail", "B2B enterprise", "Owned channels"]
+      },
+      "competitive_moats": ["Branding", "Counter-Positioning", "Cornered Resources"],
+      "pricing_correlations": ["Customized Pricing", "Behavioral Framing", "Unbundling & Versioning"],
+      "financial_kpis": ["Value Metric Alignment", "Win Rate vs. Cost-Plus", "Premium Margin %", "Brand Equity Score"],
+      "risk_profile": {
+        "primary_risks": ["Requires deep customer insight", "Hard to justify to procurement", "Segmentation complexity"],
+        "mitigation": ["ROI calculators", "Value storytelling", "Segment-specific pricing", "Pilot programs"]
+      },
+      "examples": ["Luxury Brands (Hermès)", "Enterprise Software (SAP)", "Apple", "Tesla"]
+    },
+    {
+      "id": 45,
+      "name": "Leasing",
+      "archetype": "Fractional Ownership & Asset Utilization",
+      "st_gallen_magic_triangle": {
+        "who": "Businesses and consumers needing long-term asset utility without full ownership.",
+        "what": "Predictable cash flow, tax benefits, residual value capture, lower upfront cost.",
+        "how": "Asset procurement, credit underwriting, maintenance contracts, residual value management.",
+        "why": "Residual value capture, predictable cash flow, tax benefits, interest margin."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Asset fleet", "Credit underwriting", "Maintenance network", "Residual value models"],
+        "key_activities": ["Credit assessment", "Asset lifecycle management", "Maintenance", "Residual value optimization"],
+        "channels": ["B2B direct", "Dealer networks", "Financial institutions", "Online platforms"]
+      },
+      "competitive_moats": ["Scale Economies", "Cornered Resources", "Process Power"],
+      "pricing_correlations": ["Services Engineering", "Nonlinear Pricing", "Capacity Reservation"],
+      "financial_kpis": ["Lease Yield", "Residual Realization", "Default Rate", "Asset Turnover"],
+      "risk_profile": {
+        "primary_risks": ["Credit risk", "Asset depreciation", "Interest rate sensitivity", "Regulatory changes"],
+        "mitigation": ["Credit scoring", "Residual value insurance", "Interest rate hedging", "Diversified asset classes"]
+      },
+      "examples": ["Hertz", "Equipment Leasing Cos", "Auto Lease (Toyota Financial)", "Aircraft Leasing (AerCap)"]
+    },
+    {
+      "id": 46,
+      "name": "Auctions",
+      "archetype": "Pricing & Market Mechanism",
+      "st_gallen_magic_triangle": {
+        "who": "Collectors, liquidators, unique item seekers, and price-discovery markets.",
+        "what": "True price discovery, urgency creation, clears unique inventory, competitive excitement.",
+        "how": "Bidding platforms, authentication, escrow, real-time bid tracking, lot management.",
+        "why": "True price discovery, urgency, clears unique inventory, commission on final price."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Bidding platform", "Authentication expertise", "Escrow systems", "Bidder network"],
+        "key_activities": ["Lot curation", "Authentication", "Bid management", "Escrow/settlement"],
+        "channels": ["Online platforms", "Physical auction houses", "B2B procurement", "Government portals"]
+      },
+      "competitive_moats": ["Cornered Resources (Unique Items)", "Scale Economies", "Branding"],
+      "pricing_correlations": ["Auction Pricing", "Overbooking Strategies", "Network Revenue Management"],
+      "financial_kpis": ["Sell-through Rate", "Bidder Participation", "Final Price vs. Estimate", "Commission Revenue"],
+      "risk_profile": {
+        "primary_risks": ["Buyer friction", "Shill bidding risks", "Unsold lots", "Authentication failures"],
+        "mitigation": ["Reserve prices", "Bidder verification", "Authentication guarantees", "Insurance"]
+      },
+      "examples": ["eBay", "Sotheby's", "Christie's", "Government Spectrum Auctions"]
+    },
+    {
+      "id": 47,
+      "name": "Asset Sale",
+      "archetype": "Transaction / One-Time",
+      "st_gallen_magic_triangle": {
+        "who": "Buyers needing immediate ownership; sellers needing liquidity or balance sheet clearing.",
+        "what": "Immediate cash injection, clears balance sheet, simple execution, one-time value capture.",
+        "how": "Valuation, legal transfer, broker networks, due diligence, settlement.",
+        "why": "Immediate cash injection, clears balance sheet, one-time value capture."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Asset ownership", "Valuation expertise", "Legal framework", "Broker network"],
+        "key_activities": ["Valuation", "Marketing", "Due diligence", "Legal transfer", "Settlement"],
+        "channels": ["Brokers", "Marketplaces", "Direct sales", "Auction houses"]
+      },
+      "competitive_moats": ["Cornered Resources", "Branding"],
+      "pricing_correlations": ["Markdown Management", "Customized Pricing", "Auction Pricing"],
+      "financial_kpis": ["Asset Turnover", "Capital Gains", "Time to Sale", "Valuation Accuracy"],
+      "risk_profile": {
+        "primary_risks": ["Loss of future upside", "Valuation disputes", "One-off nature", "Market timing"],
+        "mitigation": ["Market timing analysis", "Multiple valuation methods", "Earnout structures", "Staged sales"]
+      },
+      "examples": ["GoDaddy (Domains)", "Real Estate", "M&A Asset Sales", "NFT Marketplaces"]
+    },
+    {
+      "id": 48,
+      "name": "Time-Based Billing",
+      "archetype": "Brokerage, Agency & Intermediary",
+      "st_gallen_magic_triangle": {
+        "who": "Clients needing guaranteed effort, fairness, and transparent compensation.",
+        "what": "Guarantees compensation for effort, simple to track, perceived fairness.",
+        "how": "Time tracking software, billing engines, project management, timesheet approval.",
+        "why": "Guarantees compensation for effort, simple, fair, predictable revenue."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Talent/human capital", "Time tracking software", "Billing engines", "Client relationships"],
+        "key_activities": ["Time tracking", "Project management", "Billing", "Client communication"],
+        "channels": ["B2B direct", "Referrals", "RFPs", "Freelance platforms"]
+      },
+      "competitive_moats": ["Cornered Resources (Talent)", "Branding", "Process Power"],
+      "pricing_correlations": ["Customized Pricing", "Lean Six Sigma Pricing Execution", "Value-Based Pricing"],
+      "financial_kpis": ["Billable Utilization", "Realization Rate", "WIP Aging", "Revenue per Hour"],
+      "risk_profile": {
+        "primary_risks": ["Penalizes efficiency", "Client billing disputes", "Unscalable", "Talent dependency"],
+        "mitigation": ["Value-based pricing transition", "Retainer models", "Clear SOWs", "Tiered rates"]
+      },
+      "examples": ["Law Firms", "Freelancers", "Accounting Firms", "Management Consultants"]
+    },
+    {
+      "id": 49,
+      "name": "Partnerships",
+      "archetype": "Strategic Alliance & Ecosystem Orchestration",
+      "st_gallen_magic_triangle": {
+        "who": "Complementary businesses seeking shared growth, audience access, or innovation.",
+        "what": "Audience sharing, cost sharing, innovation synergy, expanded TAM.",
+        "how": "API integrations, joint GTM strategies, co-marketing, shared data lakes, co-selling.",
+        "why": "Expanded TAM, shared risk, accelerated innovation, audience access."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Partner network", "Integration APIs", "Joint IP", "Co-marketing budget"],
+        "key_activities": ["Partner enablement", "Co-selling", "Joint marketing", "Ecosystem governance"],
+        "channels": ["Partner portals", "Joint events", "Bundled offerings", "Co-branded campaigns"]
+      },
+      "competitive_moats": ["Network Effects (Ecosystem)", "Switching Costs", "Scale Economies"],
+      "pricing_correlations": ["Price Bundling", "Game-Theoretic Pricing", "Revenue Sharing Contracts"],
+      "financial_kpis": ["Partner Sourced Revenue", "Ecosystem Attach Rate", "Joint ROI", "Co-sell Win Rate"],
+      "risk_profile": {
+        "primary_risks": ["Misaligned incentives", "Asymmetric value capture", "Partner acquisition by rival", "Integration friction"],
+        "mitigation": ["Clear SLAs", "Equity cross-holdings", "Deep API integration", "Joint governance"]
+      },
+      "examples": ["Starbucks & Spotify", "Apple & Nike", "Salesforce & Slack", "Microsoft & OpenAI"]
+    },
+    {
+      "id": 50,
+      "name": "Horizontal Integration",
+      "archetype": "Corporate Strategy / M&A",
+      "st_gallen_magic_triangle": {
+        "who": "Competitors in the same industry seeking market consolidation.",
+        "what": "Market share dominance, economies of scale, reduced competition, combined IP.",
+        "how": "M&A execution, culture integration, synergy realization, combined operations.",
+        "why": "Market share dominance, scale, reduced competition, pricing power."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Combined market share", "M&A team", "Integration playbooks", "Combined IP"],
+        "key_activities": ["Target identification", "Due diligence", "Integration", "Synergy realization"],
+        "channels": ["Combined distribution", "Cross-selling", "Combined sales teams"]
+      },
+      "competitive_moats": ["Scale Economies", "Cornered Resources", "Branding"],
+      "pricing_correlations": ["Game-Theoretic Pricing", "Pan-Local Global Pricing", "Customized Pricing"],
+      "financial_kpis": ["Market Share %", "Synergy Realization", "Post-Merger Margin", "Integration Timeline"],
+      "risk_profile": {
+        "primary_risks": ["Antitrust scrutiny", "Culture clash", "Integration costs", "Value destruction"],
+        "mitigation": ["Regulatory pre-clearance", "Integration playbooks", "Cultural due diligence", "Phased integration"]
+      },
+      "examples": ["Facebook acquiring Instagram", "Airline Mergers", "Disney acquiring Pixar"]
+    },
+    {
+      "id": 51,
+      "name": "Vertical Integration",
+      "archetype": "Traditional Manufacturing & Supply Chain Pipeline",
+      "st_gallen_magic_triangle": {
+        "who": "Companies seeking supply chain control, margin capture, or quality assurance.",
+        "what": "Supply chain control, margin capture, quality assurance, reduced dependency.",
+        "how": "M&A execution, operational integration, transfer pricing, supply chain orchestration.",
+        "why": "Supply chain control, margin capture, quality assurance, reduced supplier dependency."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Supply chain assets", "Integration playbooks", "Transfer pricing systems", "QA systems"],
+        "key_activities": ["Supply chain orchestration", "Transfer pricing", "QA/QC", "Capacity planning"],
+        "channels": ["Internal transfer", "External sales", "B2B direct", "DTC"]
+      },
+      "competitive_moats": ["Scale Economies", "Process Power", "Cornered Resources"],
+      "pricing_correlations": ["Capacity Reservation", "Quantity Flexibility Contracts", "Lean Six Sigma Pricing"],
+      "financial_kpis": ["Supply Chain Cost %", "Lead Time Reduction", "Internal Transfer Pricing", "Margin Capture"],
+      "risk_profile": {
+        "primary_risks": ["High CapEx", "Reduced flexibility", "Core competency distraction", "Regulatory scrutiny"],
+        "mitigation": ["Phased integration", "Outsource non-core", "Transfer pricing governance", "Regulatory compliance"]
+      },
+      "examples": ["Ford Motor Co", "Zara", "Tesla", "Apple (chip design)"]
+    },
+    {
+      "id": 52,
+      "name": "Branded Content",
+      "archetype": "Attention & Audience Monetization",
+      "st_gallen_magic_triangle": {
+        "who": "Consumers seeking entertainment; Brands needing affinity and engagement.",
+        "what": "Ad-blocker proof, deep engagement, brand affinity, storytelling.",
+        "how": "High production value, distribution, storytelling, community engagement, measurement.",
+        "why": "Ad-blocker proof, deep engagement, brand affinity, earned media value."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Content production team", "Brand IP", "Distribution network", "Measurement tools"],
+        "key_activities": ["Content creation", "Distribution", "Community engagement", "ROI measurement"],
+        "channels": ["Social media", "Video platforms", "Podcasts", "Owned channels"]
+      },
+      "competitive_moats": ["Branding", "Cornered Resources (IP)", "Scale Economies"],
+      "pricing_correlations": ["Behavioral Framing", "Pan-Local Global Pricing", "Value-Based Pricing"],
+      "financial_kpis": ["View-Through Rate", "Brand Sentiment", "Earned Media Value", "Engagement Rate"],
+      "risk_profile": {
+        "primary_risks": ["High production costs", "Hard to measure direct ROI", "Distraction from core product"],
+        "mitigation": ["Phased production", "Multi-touch attribution", "Clear brand alignment", "Content repurposing"]
+      },
+      "examples": ["Red Bull Media House", "Dove Real Beauty", "GoPro", "LEGO Movies"]
+    },
+    {
+      "id": 53,
+      "name": "Dynamic Capabilities",
+      "archetype": "Organizational Strategy",
+      "st_gallen_magic_triangle": {
+        "who": "Markets requiring constant adaptation, innovation, and strategic pivots.",
+        "what": "Long-term survival, first-mover advantage, resilience, continuous reinvention.",
+        "how": "R&D pipelines, agile governance, pivot frameworks, sensing/seizing/transforming.",
+        "why": "Long-term survival, first-mover advantage, resilience, sustained competitive advantage."
+      },
+      "bmc_alignment": {
+        "key_resources": ["R&D pipeline", "Agile governance", "Organizational learning", "Strategic sensing"],
+        "key_activities": ["Market sensing", "Opportunity seizing", "Organizational transformation", "Pivot execution"],
+        "channels": ["All channels", "New market entry", "Pivot products", "Ecosystem partnerships"]
+      },
+      "competitive_moats": ["Process Power", "Counter-Positioning", "Scale Economies"],
+      "pricing_correlations": ["Lean Six Sigma Pricing Execution", "Game-Theoretic Pricing", "Value-Based Pricing"],
+      "financial_kpis": ["Time-to-Market", "Innovation Revenue %", "Pivot Success Rate", "R&D ROI"],
+      "risk_profile": {
+        "primary_risks": ["Organizational fatigue", "Resource drain", "Strategic drift", "Execution risk"],
+        "mitigation": ["Phased pivots", "Resource allocation governance", "Clear strategic intent", "Culture of experimentation"]
+      },
+      "examples": ["Apple", "Netflix", "Amazon", "Microsoft (Satya Nadella era)"]
+    },
+    {
+      "id": 54,
+      "name": "Blue Ocean Strategy",
+      "archetype": "Strategic Innovation",
+      "st_gallen_magic_triangle": {
+        "who": "Non-customers, uncontested markets, and overlooked segments.",
+        "what": "No competition, premium pricing, rule-maker status, value innovation.",
+        "how": "Value innovation, ERRC grid (Eliminate-Reduce-Raise-Create), market education, new demand creation.",
+        "why": "No competition, premium pricing, rule-maker status, uncontested market capture."
+      },
+      "bmc_alignment": {
+        "key_resources": ["Value innovation IP", "Market education capability", "New demand creation", "ERRC framework"],
+        "key_activities": ["Market sensing", "Value innovation", "Market education", "New demand creation"],
+        "channels": ["New channels", "Direct-to-consumer", "Ecosystem partnerships", "PR/Media"]
+      },
+      "competitive_moats": ["Counter-Positioning", "Branding", "Network Effects"],
+      "pricing_correlations": ["Unbundling & Versioning", "Customized Pricing", "Value-Based Pricing"],
+      "financial_kpis": ["New Market Share", "Value Innovation Index", "Customer Creation Rate", "Time to Imitation"],
+      "risk_profile": {
+        "primary_risks": ["High market education costs", "Execution risk", "Imitators eventually arrive", "Regulatory uncertainty"],
+        "mitigation": ["Phased market entry", "IP protection", "Network effects building", "Regulatory engagement"],
+        "examples": ["Tesla (initially)", "Cirque du Soleil", "Nintendo Wii", "Yellow Tail Wine"]
+      }
+    }
+  ],
+  "cross_walk_mapping": {
+    "description": "How the 54 individual models map to the 12 Universal Archetypes.",
+    "mapping": {
+      "DTC & Pipeline": ["E-commerce", "Dropshipping", "FBA", "Selling Digital Products", "Direct Sales", "Manufacturing", "Distribution", "Import/Export"],
+      "Platform & Orchestrator": ["Marketplace", "Sharing Economy", "UGC", "Crowdsourcing", "On-demand Services", "Network Effect"],
+      "Subscription & Access": ["Subscriptions", "SaaS", "PaaS", "IaaS", "Rental", "Leasing", "Pay-per-use"],
+      "Bait & Hook / Lock-in": ["Freemium", "In-app Purchases", "Loyalty Programs", "Bundling", "Personalization"],
+      "Brokerage & Agency": ["Agency", "Consulting", "Coaching", "Outsourcing", "Affiliate Marketing", "Time-based billing"],
+      "Franchise & IP": ["Franchise", "Licensing", "White Labelling"],
+      "Attention & Audience": ["Advertising", "Branded Content", "Sponsorship"],
+      "Pricing & Market Mechanisms": ["Auctions", "Reverse Auction", "Dynamic Pricing", "Price Discrimination", "Value-based pricing", "Asset Sale"],
+      "Strategic & Corporate": ["Joint Venture", "Partnerships", "Horizontal Integration", "Vertical Integration", "Dynamic Capabilities", "Blue Ocean Strategy"],
+      "Crowd & Alternative": ["Crowdfunding", "Co-creation", "Pay-what-you-want", "MLM"]
+    }
+  },
+  "global_frameworks": {
+    "helmer_7_powers_matrix": {
+      "scale_economies": "Spreading fixed costs (R&D, Marketing) over higher volume. (Models: SaaS, Manufacturing, DTC, IaaS)",
+      "network_economies": "Value increases as users join. (Models: Platforms, Marketplaces, UGC, Network Effect)",
+      "counter_positioning": "A newcomer adopts a superior, uncopyable business model. (Models: Blue Ocean, Netflix vs Blockbuster, Tesla)",
+      "switching_costs": "High friction to leave. (Models: SaaS, B2B Platforms, Ecosystems, Subscriptions)",
+      "branding": "Psychological attribution of value. (Models: DTC, Luxury, Licensing, Franchise)",
+      "cornered_resource": "Preferential access to a valuable asset. (Models: Licensing, Franchising, Mining, IaaS)",
+      "process_power": "Embedded, hard-to-replicate company culture and processes. (Models: Toyota Lean, Consulting Firms, Manufacturing)"
+    },
+    "pricing_to_model_alignment": {
+      "high_fixed_low_marginal_cost": {
+        "models": ["SaaS", "Digital Products", "Media", "Freemium"],
+        "pricing": ["Versioning", "Bundling", "Two-Part Tariffs", "Freemium"]
+      },
+      "perishable_inventory": {
+        "models": ["Airlines", "Hotels", "Event Ticketing", "On-Demand", "Rental"],
+        "pricing": ["Network Revenue Management", "Overbooking", "Dynamic Pricing", "Markdown Management"]
+      },
+      "complex_b2b_value_chains": {
+        "models": ["Manufacturing", "Distribution", "Outsourcing", "Import/Export"],
+        "pricing": ["Lean Six Sigma Execution", "Capacity Reservation", "Quantity Flexibility", "Customized Bid-Response"]
+      },
+      "attention_and_networks": {
+        "models": ["Platforms", "Marketplaces", "Ad-Networks", "UGC"],
+        "pricing": ["Auction Pricing", "Take-Rate Optimization", "Network Revenue Management"]
+      }
+    },
+    "implementation_roadmap": {
+      "phase_1_validation": {
+        "duration": "0-3 months",
+        "models": ["E-commerce", "Dropshipping", "Affiliate Marketing", "Selling Digital Products"],
+        "focus": "Market testing, low capital expenditure, rapid iteration."
+      },
+      "phase_2_scaling": {
+        "duration": "3-12 months",
+        "models": ["Subscriptions", "SaaS", "Marketplace", "Freemium"],
+        "focus": "User acquisition, network effects, recurring revenue stabilization."
+      },
+      "phase_3_domination": {
+        "duration": "1-3 years",
+        "models": ["Horizontal/Vertical Integration", "Ecosystem/Platform", "Blue Ocean Strategy"],
+        "focus": "Market consolidation, barrier to entry creation, M&A."
+      }
+    }
+  }
+}
